@@ -1,0 +1,36 @@
+{
+  "TopologyParams": {
+    "name": "NDv2",
+    "option": 1,
+    "chassis": 2,
+    "chunk_size": 0.0625
+  },
+  "GurobiParams": {
+    "time_limit": 2,
+    "feasibility_tol": 0.0001,
+    "intfeas_tol": 0.0001,
+    "optimality_tol": 0.0001,
+    "output_flag": 0,
+    "log_file": "",
+    "log_to_console": 0,
+    "mip_gap": 0.0001,
+    "mip_focus": 1,
+    "crossover": -1,
+    "method": -1,
+    "heuristics": 0.3
+  },
+  "InstanceParams": {
+    "collective": 1,
+    "num_chunks": 1,
+    "epoch_type": 1,
+    "epoch_duration": -1,
+    "num_epochs": -1,
+    "alpha_threshold": 0.1,
+    "switch_copy": true,
+    "debug": false,
+    "debug_output_file": "",
+    "objective_type": 3,
+    "solution_method": 2,
+    "schedule_output_file": "teccl/examples/schedules/ndv2_schedule.json"
+  }
+}

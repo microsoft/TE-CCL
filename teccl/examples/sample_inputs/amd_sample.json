@@ -1,0 +1,33 @@
+{
+    "TopologyParams": {
+        "name": "AMD",
+        "chassis": 1,
+        "chunk_size": 0.25
+    },
+    "GurobiParams": {
+        "time_limit": 2,
+        "output_flag": 1,
+        "log_file": "",
+        "log_to_console": 0,
+        "mip_gap": 1e-4,
+        "mip_focus": 1,
+        "crossover": -1,
+        "method": -1,
+        "heuristics": 0.3
+    },
+    "InstanceParams": {
+        "collective": 1,
+        "num_chunks": 1,
+        "epoch_type": 1,
+        "epoch_duration": -1,
+        "epoch_multiplier": 1,
+        "num_epochs": 40,
+        "alpha_threshold": 0.1,
+        "switch_copy": true,
+        "debug": true,
+        "debug_output_file": "",
+        "objective_type": 3,
+        "solution_method": 1,
+        "lower": true
+    }
+}
