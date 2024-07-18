@@ -87,6 +87,9 @@ experiments_output
 
 Notice that we use the solver time data from our experiments to reproduce the figures, because solver time varies a lot due to physical capacities of different machines.
 
+### Provided Output
+We ran TE-CCL and provided its output in `experiments/output_provided`, which should have the same content in `experiments/output` after completing all experiments.
+
 ## Additional Notes
 ### TACCL [1]
 We ran TACCL and provided the results in `individual_tables`. To run TACCL users should refer to the [TACCL repo](https://github.com/microsoft/taccl).

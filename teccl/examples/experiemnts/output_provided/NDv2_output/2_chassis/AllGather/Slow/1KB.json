@@ -1,0 +1,1781 @@
+{
+  "1-Epoch_Duration": 5e-09,
+  "2-Expected_Epoch_Duration": 5e-09,
+  "3-Epochs_Required": 827,
+  "4-Collective_Finish_Time": 4.135e-06,
+  "5-Algo_Bandwidth": 0.24183796856106407,
+  "6-Demand_Met": {
+    "GPU 1": {
+      "GPU 10": {
+        "Chunk 0": 2.015e-06
+      },
+      "GPU 11": {
+        "Chunk 0": 2.02e-06
+      },
+      "GPU 12": {
+        "Chunk 0": 2.025e-06
+      },
+      "GPU 13": {
+        "Chunk 0": 2.7150000000000003e-06
+      },
+      "GPU 14": {
+        "Chunk 0": 2.725e-06
+      },
+      "GPU 15": {
+        "Chunk 0": 2.7200000000000002e-06
+      },
+      "GPU 2": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 3": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 4": {
+        "Chunk 0": 1.405e-06
+      },
+      "GPU 5": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 6": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 7": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 8": {
+        "Chunk 0": 1.305e-06
+      },
+      "GPU 9": {
+        "Chunk 0": 2.0100000000000002e-06
+      }
+    },
+    "GPU 10": {
+      "GPU 1": {
+        "Chunk 0": 2.71e-06
+      },
+      "GPU 11": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 12": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 13": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 14": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 15": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 2": {
+        "Chunk 0": 2.7150000000000003e-06
+      },
+      "GPU 3": {
+        "Chunk 0": 2.7200000000000002e-06
+      },
+      "GPU 4": {
+        "Chunk 0": 2.725e-06
+      },
+      "GPU 5": {
+        "Chunk 0": 3.415e-06
+      },
+      "GPU 6": {
+        "Chunk 0": 3.42e-06
+      },
+      "GPU 7": {
+        "Chunk 0": 3.4250000000000002e-06
+      },
+      "GPU 8": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 9": {
+        "Chunk 0": 7.05e-07
+      }
+    },
+    "GPU 11": {
+      "GPU 1": {
+        "Chunk 0": 2.71e-06
+      },
+      "GPU 10": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 12": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 13": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 14": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 15": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 2": {
+        "Chunk 0": 2.7150000000000003e-06
+      },
+      "GPU 3": {
+        "Chunk 0": 2.7200000000000002e-06
+      },
+      "GPU 4": {
+        "Chunk 0": 2.725e-06
+      },
+      "GPU 5": {
+        "Chunk 0": 3.415e-06
+      },
+      "GPU 6": {
+        "Chunk 0": 3.42e-06
+      },
+      "GPU 7": {
+        "Chunk 0": 3.4250000000000002e-06
+      },
+      "GPU 8": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 9": {
+        "Chunk 0": 7.05e-07
+      }
+    },
+    "GPU 12": {
+      "GPU 1": {
+        "Chunk 0": 3.415e-06
+      },
+      "GPU 10": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 11": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 13": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 14": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 15": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 2": {
+        "Chunk 0": 3.42e-06
+      },
+      "GPU 3": {
+        "Chunk 0": 3.4250000000000002e-06
+      },
+      "GPU 4": {
+        "Chunk 0": 3.43e-06
+      },
+      "GPU 5": {
+        "Chunk 0": 4.12e-06
+      },
+      "GPU 6": {
+        "Chunk 0": 4.125e-06
+      },
+      "GPU 7": {
+        "Chunk 0": 4.13e-06
+      },
+      "GPU 8": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 9": {
+        "Chunk 0": 1.41e-06
+      }
+    },
+    "GPU 13": {
+      "GPU 1": {
+        "Chunk 0": 2.71e-06
+      },
+      "GPU 10": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 11": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 12": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 14": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 15": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 2": {
+        "Chunk 0": 2.7150000000000003e-06
+      },
+      "GPU 3": {
+        "Chunk 0": 2.7200000000000002e-06
+      },
+      "GPU 4": {
+        "Chunk 0": 2.725e-06
+      },
+      "GPU 5": {
+        "Chunk 0": 3.415e-06
+      },
+      "GPU 6": {
+        "Chunk 0": 3.42e-06
+      },
+      "GPU 7": {
+        "Chunk 0": 3.4250000000000002e-06
+      },
+      "GPU 8": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 9": {
+        "Chunk 0": 7.05e-07
+      }
+    },
+    "GPU 14": {
+      "GPU 1": {
+        "Chunk 0": 3.415e-06
+      },
+      "GPU 10": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 11": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 12": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 13": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 15": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 2": {
+        "Chunk 0": 3.42e-06
+      },
+      "GPU 3": {
+        "Chunk 0": 3.4250000000000002e-06
+      },
+      "GPU 4": {
+        "Chunk 0": 3.43e-06
+      },
+      "GPU 5": {
+        "Chunk 0": 4.12e-06
+      },
+      "GPU 6": {
+        "Chunk 0": 4.125e-06
+      },
+      "GPU 7": {
+        "Chunk 0": 4.13e-06
+      },
+      "GPU 8": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 9": {
+        "Chunk 0": 1.41e-06
+      }
+    },
+    "GPU 15": {
+      "GPU 1": {
+        "Chunk 0": 3.415e-06
+      },
+      "GPU 10": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 11": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 12": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 13": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 14": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 2": {
+        "Chunk 0": 3.42e-06
+      },
+      "GPU 3": {
+        "Chunk 0": 3.4250000000000002e-06
+      },
+      "GPU 4": {
+        "Chunk 0": 3.43e-06
+      },
+      "GPU 5": {
+        "Chunk 0": 4.12e-06
+      },
+      "GPU 6": {
+        "Chunk 0": 4.125e-06
+      },
+      "GPU 7": {
+        "Chunk 0": 4.13e-06
+      },
+      "GPU 8": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 9": {
+        "Chunk 0": 1.41e-06
+      }
+    },
+    "GPU 2": {
+      "GPU 1": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 10": {
+        "Chunk 0": 2.7200000000000002e-06
+      },
+      "GPU 11": {
+        "Chunk 0": 2.725e-06
+      },
+      "GPU 12": {
+        "Chunk 0": 2.73e-06
+      },
+      "GPU 13": {
+        "Chunk 0": 3.42e-06
+      },
+      "GPU 14": {
+        "Chunk 0": 3.43e-06
+      },
+      "GPU 15": {
+        "Chunk 0": 3.4250000000000002e-06
+      },
+      "GPU 3": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 4": {
+        "Chunk 0": 1.405e-06
+      },
+      "GPU 5": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 6": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 7": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 8": {
+        "Chunk 0": 2.0100000000000002e-06
+      },
+      "GPU 9": {
+        "Chunk 0": 2.7150000000000003e-06
+      }
+    },
+    "GPU 3": {
+      "GPU 1": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 10": {
+        "Chunk 0": 2.7200000000000002e-06
+      },
+      "GPU 11": {
+        "Chunk 0": 2.725e-06
+      },
+      "GPU 12": {
+        "Chunk 0": 2.73e-06
+      },
+      "GPU 13": {
+        "Chunk 0": 3.42e-06
+      },
+      "GPU 14": {
+        "Chunk 0": 3.43e-06
+      },
+      "GPU 15": {
+        "Chunk 0": 3.4250000000000002e-06
+      },
+      "GPU 2": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 4": {
+        "Chunk 0": 1.405e-06
+      },
+      "GPU 5": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 6": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 7": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 8": {
+        "Chunk 0": 2.0100000000000002e-06
+      },
+      "GPU 9": {
+        "Chunk 0": 2.7150000000000003e-06
+      }
+    },
+    "GPU 4": {
+      "GPU 1": {
+        "Chunk 0": 1.405e-06
+      },
+      "GPU 10": {
+        "Chunk 0": 3.4250000000000002e-06
+      },
+      "GPU 11": {
+        "Chunk 0": 3.43e-06
+      },
+      "GPU 12": {
+        "Chunk 0": 3.435e-06
+      },
+      "GPU 13": {
+        "Chunk 0": 4.12e-06
+      },
+      "GPU 14": {
+        "Chunk 0": 4.13e-06
+      },
+      "GPU 15": {
+        "Chunk 0": 4.125e-06
+      },
+      "GPU 2": {
+        "Chunk 0": 1.405e-06
+      },
+      "GPU 3": {
+        "Chunk 0": 1.405e-06
+      },
+      "GPU 5": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 6": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 7": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 8": {
+        "Chunk 0": 2.71e-06
+      },
+      "GPU 9": {
+        "Chunk 0": 3.415e-06
+      }
+    },
+    "GPU 5": {
+      "GPU 1": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 10": {
+        "Chunk 0": 2.7200000000000002e-06
+      },
+      "GPU 11": {
+        "Chunk 0": 2.725e-06
+      },
+      "GPU 12": {
+        "Chunk 0": 2.73e-06
+      },
+      "GPU 13": {
+        "Chunk 0": 3.42e-06
+      },
+      "GPU 14": {
+        "Chunk 0": 3.43e-06
+      },
+      "GPU 15": {
+        "Chunk 0": 3.4250000000000002e-06
+      },
+      "GPU 2": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 3": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 4": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 6": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 7": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 8": {
+        "Chunk 0": 2.0100000000000002e-06
+      },
+      "GPU 9": {
+        "Chunk 0": 2.7150000000000003e-06
+      }
+    },
+    "GPU 6": {
+      "GPU 1": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 10": {
+        "Chunk 0": 3.4250000000000002e-06
+      },
+      "GPU 11": {
+        "Chunk 0": 3.43e-06
+      },
+      "GPU 12": {
+        "Chunk 0": 3.435e-06
+      },
+      "GPU 13": {
+        "Chunk 0": 4.125e-06
+      },
+      "GPU 14": {
+        "Chunk 0": 4.135e-06
+      },
+      "GPU 15": {
+        "Chunk 0": 4.13e-06
+      },
+      "GPU 2": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 3": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 4": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 5": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 7": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 8": {
+        "Chunk 0": 2.7150000000000003e-06
+      },
+      "GPU 9": {
+        "Chunk 0": 3.42e-06
+      }
+    },
+    "GPU 7": {
+      "GPU 1": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 10": {
+        "Chunk 0": 3.4250000000000002e-06
+      },
+      "GPU 11": {
+        "Chunk 0": 3.43e-06
+      },
+      "GPU 12": {
+        "Chunk 0": 3.435e-06
+      },
+      "GPU 13": {
+        "Chunk 0": 4.125e-06
+      },
+      "GPU 14": {
+        "Chunk 0": 4.135e-06
+      },
+      "GPU 15": {
+        "Chunk 0": 4.13e-06
+      },
+      "GPU 2": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 3": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 4": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 5": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 6": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 8": {
+        "Chunk 0": 2.7150000000000003e-06
+      },
+      "GPU 9": {
+        "Chunk 0": 3.42e-06
+      }
+    },
+    "GPU 8": {
+      "GPU 1": {
+        "Chunk 0": 2.71e-06
+      },
+      "GPU 10": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 11": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 12": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 13": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 14": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 15": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 2": {
+        "Chunk 0": 2.7150000000000003e-06
+      },
+      "GPU 3": {
+        "Chunk 0": 2.7200000000000002e-06
+      },
+      "GPU 4": {
+        "Chunk 0": 2.725e-06
+      },
+      "GPU 5": {
+        "Chunk 0": 3.415e-06
+      },
+      "GPU 6": {
+        "Chunk 0": 3.42e-06
+      },
+      "GPU 7": {
+        "Chunk 0": 3.4250000000000002e-06
+      },
+      "GPU 9": {
+        "Chunk 0": 7.05e-07
+      }
+    },
+    "GPU 9": {
+      "GPU 1": {
+        "Chunk 0": 2.005e-06
+      },
+      "GPU 10": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 11": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 12": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 13": {
+        "Chunk 0": 7.05e-07
+      },
+      "GPU 14": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 15": {
+        "Chunk 0": 1.41e-06
+      },
+      "GPU 2": {
+        "Chunk 0": 2.0100000000000002e-06
+      },
+      "GPU 3": {
+        "Chunk 0": 2.015e-06
+      },
+      "GPU 4": {
+        "Chunk 0": 2.02e-06
+      },
+      "GPU 5": {
+        "Chunk 0": 2.71e-06
+      },
+      "GPU 6": {
+        "Chunk 0": 2.7150000000000003e-06
+      },
+      "GPU 7": {
+        "Chunk 0": 2.7200000000000002e-06
+      },
+      "GPU 8": {
+        "Chunk 0": 7.05e-07
+      }
+    }
+  },
+  "7-Flows": [
+    "Chunk 0 from 5 traveled over 5->6 in epoch 0",
+    "Chunk 0 from 8 traveled over 8->12 in epoch 0",
+    "Chunk 0 from 9 traveled over 9->8 in epoch 0",
+    "Chunk 0 from 4 traveled over 4->6 in epoch 0",
+    "Chunk 0 from 8 traveled over 8->9 in epoch 0",
+    "Chunk 0 from 4 traveled over 4->2 in epoch 0 via switches 0",
+    "Chunk 0 from 3 traveled over 3->1 in epoch 0",
+    "Chunk 0 from 5 traveled over 5->4 in epoch 0",
+    "Chunk 0 from 2 traveled over 2->4 in epoch 0 via switches 0",
+    "Chunk 0 from 9 traveled over 9->13 in epoch 0",
+    "Chunk 0 from 1 traveled over 1->9 in epoch 0 via switches 0",
+    "Chunk 0 from 10 traveled over 10->9 in epoch 0",
+    "Chunk 0 from 3 traveled over 3->4 in epoch 0 via switches 0",
+    "Chunk 0 from 4 traveled over 4->1 in epoch 0 via switches 0",
+    "Chunk 0 from 13 traveled over 13->15 in epoch 0",
+    "Chunk 0 from 14 traveled over 14->12 in epoch 0",
+    "Chunk 0 from 8 traveled over 8->1 in epoch 0",
+    "Chunk 0 from 15 traveled over 15->13 in epoch 0",
+    "Chunk 0 from 1 traveled over 1->4 in epoch 0 via switches 0",
+    "Chunk 0 from 15 traveled over 15->14 in epoch 0",
+    "Chunk 0 from 15 traveled over 15->12 in epoch 0",
+    "Chunk 0 from 5 traveled over 5->7 in epoch 0",
+    "Chunk 0 from 1 traveled over 1->5 in epoch 0",
+    "Chunk 0 from 6 traveled over 6->5 in epoch 0",
+    "Chunk 0 from 4 traveled over 4->3 in epoch 0 via switches 0",
+    "Chunk 0 from 7 traveled over 7->3 in epoch 0",
+    "Chunk 0 from 7 traveled over 7->6 in epoch 0",
+    "Chunk 0 from 10 traveled over 10->14 in epoch 0",
+    "Chunk 0 from 5 traveled over 5->1 in epoch 0",
+    "Chunk 0 from 2 traveled over 2->6 in epoch 0",
+    "Chunk 0 from 14 traveled over 14->10 in epoch 0",
+    "Chunk 0 from 12 traveled over 12->15 in epoch 0",
+    "Chunk 0 from 9 traveled over 9->10 in epoch 0",
+    "Chunk 0 from 13 traveled over 13->14 in epoch 0",
+    "Chunk 0 from 11 traveled over 11->10 in epoch 0",
+    "Chunk 0 from 14 traveled over 14->13 in epoch 0",
+    "Chunk 0 from 3 traveled over 3->7 in epoch 0",
+    "Chunk 0 from 12 traveled over 12->14 in epoch 0",
+    "Chunk 0 from 7 traveled over 7->5 in epoch 0",
+    "Chunk 0 from 6 traveled over 6->2 in epoch 0",
+    "Chunk 0 from 1 traveled over 1->2 in epoch 0",
+    "Chunk 0 from 6 traveled over 6->4 in epoch 0",
+    "Chunk 0 from 11 traveled over 11->9 in epoch 0",
+    "Chunk 0 from 4 traveled over 4->5 in epoch 0",
+    "Chunk 0 from 7 traveled over 7->4 in epoch 0",
+    "Chunk 0 from 14 traveled over 14->15 in epoch 0",
+    "Chunk 0 from 1 traveled over 1->3 in epoch 0",
+    "Chunk 0 from 12 traveled over 12->13 in epoch 0",
+    "Chunk 0 from 12 traveled over 12->8 in epoch 0",
+    "Chunk 0 from 13 traveled over 13->9 in epoch 0",
+    "Chunk 0 from 11 traveled over 11->8 in epoch 0",
+    "Chunk 0 from 2 traveled over 2->1 in epoch 0",
+    "Chunk 0 from 15 traveled over 15->11 in epoch 0",
+    "Chunk 0 from 3 traveled over 3->2 in epoch 0",
+    "Chunk 0 from 8 traveled over 8->10 in epoch 0",
+    "Chunk 0 from 6 traveled over 6->7 in epoch 0",
+    "Chunk 0 from 10 traveled over 10->8 in epoch 0",
+    "Chunk 0 from 4 traveled over 4->7 in epoch 0",
+    "Chunk 0 from 8 traveled over 8->11 in epoch 0",
+    "Chunk 0 from 11 traveled over 11->15 in epoch 0",
+    "Chunk 0 from 13 traveled over 13->12 in epoch 0",
+    "Chunk 0 from 2 traveled over 2->3 in epoch 0",
+    "Chunk 0 from 10 traveled over 10->11 in epoch 0",
+    "Chunk 0 from 9 traveled over 9->11 in epoch 0",
+    "Chunk 0 from 2 traveled over 2->9 in epoch 1 via switches 0",
+    "Chunk 0 from 3 traveled over 3->9 in epoch 2 via switches 0",
+    "Chunk 0 from 4 traveled over 4->9 in epoch 3 via switches 0",
+    "Chunk 0 from 14 traveled over 12->8 in epoch 141",
+    "Chunk 0 from 6 traveled over 2->1 in epoch 141",
+    "Chunk 0 from 5 traveled over 6->2 in epoch 141",
+    "Chunk 0 from 3 traveled over 1->5 in epoch 141",
+    "Chunk 0 from 7 traveled over 3->2 in epoch 141",
+    "Chunk 0 from 13 traveled over 9->11 in epoch 141",
+    "Chunk 0 from 2 traveled over 3->7 in epoch 141",
+    "Chunk 0 from 15 traveled over 13->9 in epoch 141",
+    "Chunk 0 from 1 traveled over 5->7 in epoch 141",
+    "Chunk 0 from 15 traveled over 12->8 in epoch 141",
+    "Chunk 0 from 8 traveled over 12->15 in epoch 141",
+    "Chunk 0 from 9 traveled over 13->15 in epoch 141",
+    "Chunk 0 from 8 traveled over 10->14 in epoch 141",
+    "Chunk 0 from 13 traveled over 14->10 in epoch 141",
+    "Chunk 0 from 12 traveled over 8->9 in epoch 141",
+    "Chunk 0 from 5 traveled over 1->9 in epoch 141 via switches 0",
+    "Chunk 0 from 9 traveled over 8->12 in epoch 141",
+    "Chunk 0 from 9 traveled over 8->1 in epoch 141",
+    "Chunk 0 from 8 traveled over 12->13 in epoch 141",
+    "Chunk 0 from 6 traveled over 7->3 in epoch 141",
+    "Chunk 0 from 11 traveled over 15->13 in epoch 141",
+    "Chunk 0 from 10 traveled over 14->13 in epoch 141",
+    "Chunk 0 from 7 traveled over 3->1 in epoch 141",
+    "Chunk 0 from 13 traveled over 12->8 in epoch 141",
+    "Chunk 0 from 9 traveled over 10->14 in epoch 141",
+    "Chunk 0 from 15 traveled over 14->10 in epoch 141",
+    "Chunk 0 from 14 traveled over 10->9 in epoch 141",
+    "Chunk 0 from 2 traveled over 1->5 in epoch 141",
+    "Chunk 0 from 10 traveled over 14->15 in epoch 141",
+    "Chunk 0 from 11 traveled over 10->14 in epoch 141",
+    "Chunk 0 from 12 traveled over 8->11 in epoch 141",
+    "Chunk 0 from 1 traveled over 5->6 in epoch 141",
+    "Chunk 0 from 11 traveled over 15->12 in epoch 141",
+    "Chunk 0 from 14 traveled over 10->11 in epoch 141",
+    "Chunk 0 from 3 traveled over 2->6 in epoch 141",
+    "Chunk 0 from 12 traveled over 8->10 in epoch 141",
+    "Chunk 0 from 10 traveled over 8->12 in epoch 141",
+    "Chunk 0 from 5 traveled over 1->3 in epoch 141",
+    "Chunk 0 from 6 traveled over 4->9 in epoch 142 via switches 0",
+    "Chunk 0 from 10 traveled over 8->1 in epoch 142",
+    "Chunk 0 from 7 traveled over 4->9 in epoch 143 via switches 0",
+    "Chunk 0 from 11 traveled over 8->1 in epoch 143",
+    "Chunk 0 from 12 traveled over 8->1 in epoch 144",
+    "Chunk 0 from 8 traveled over 1->2 in epoch 261",
+    "Chunk 0 from 8 traveled over 1->4 in epoch 261 via switches 0",
+    "Chunk 0 from 8 traveled over 1->3 in epoch 261",
+    "Chunk 0 from 8 traveled over 1->5 in epoch 261",
+    "Chunk 0 from 13 traveled over 8->1 in epoch 282",
+    "Chunk 0 from 15 traveled over 8->1 in epoch 283",
+    "Chunk 0 from 14 traveled over 8->1 in epoch 284",
+    "Chunk 0 from 1 traveled over 9->8 in epoch 401",
+    "Chunk 0 from 1 traveled over 9->10 in epoch 401",
+    "Chunk 0 from 1 traveled over 9->13 in epoch 401",
+    "Chunk 0 from 1 traveled over 9->11 in epoch 401",
+    "Chunk 0 from 9 traveled over 1->4 in epoch 402 via switches 0",
+    "Chunk 0 from 2 traveled over 9->8 in epoch 402",
+    "Chunk 0 from 2 traveled over 9->10 in epoch 402",
+    "Chunk 0 from 8 traveled over 2->6 in epoch 402",
+    "Chunk 0 from 9 traveled over 1->5 in epoch 402",
+    "Chunk 0 from 9 traveled over 1->3 in epoch 402",
+    "Chunk 0 from 9 traveled over 1->2 in epoch 402",
+    "Chunk 0 from 8 traveled over 3->7 in epoch 402",
+    "Chunk 0 from 2 traveled over 9->13 in epoch 402",
+    "Chunk 0 from 2 traveled over 9->11 in epoch 402",
+    "Chunk 0 from 10 traveled over 1->5 in epoch 403",
+    "Chunk 0 from 3 traveled over 9->13 in epoch 403",
+    "Chunk 0 from 10 traveled over 1->2 in epoch 403",
+    "Chunk 0 from 3 traveled over 9->10 in epoch 403",
+    "Chunk 0 from 3 traveled over 9->11 in epoch 403",
+    "Chunk 0 from 3 traveled over 9->8 in epoch 403",
+    "Chunk 0 from 10 traveled over 1->3 in epoch 403",
+    "Chunk 0 from 4 traveled over 9->11 in epoch 404",
+    "Chunk 0 from 4 traveled over 9->8 in epoch 404",
+    "Chunk 0 from 11 traveled over 1->2 in epoch 404",
+    "Chunk 0 from 11 traveled over 1->3 in epoch 404",
+    "Chunk 0 from 4 traveled over 9->13 in epoch 404",
+    "Chunk 0 from 11 traveled over 1->5 in epoch 404",
+    "Chunk 0 from 4 traveled over 9->10 in epoch 404",
+    "Chunk 0 from 12 traveled over 1->5 in epoch 405",
+    "Chunk 0 from 12 traveled over 1->2 in epoch 405",
+    "Chunk 0 from 12 traveled over 1->3 in epoch 405",
+    "Chunk 0 from 1 traveled over 13->12 in epoch 542",
+    "Chunk 0 from 5 traveled over 9->11 in epoch 542",
+    "Chunk 0 from 5 traveled over 9->13 in epoch 542",
+    "Chunk 0 from 5 traveled over 9->10 in epoch 542",
+    "Chunk 0 from 1 traveled over 13->15 in epoch 542",
+    "Chunk 0 from 5 traveled over 9->8 in epoch 542",
+    "Chunk 0 from 1 traveled over 13->14 in epoch 542",
+    "Chunk 0 from 9 traveled over 2->6 in epoch 543",
+    "Chunk 0 from 6 traveled over 9->13 in epoch 543",
+    "Chunk 0 from 6 traveled over 9->10 in epoch 543",
+    "Chunk 0 from 2 traveled over 13->12 in epoch 543",
+    "Chunk 0 from 2 traveled over 13->15 in epoch 543",
+    "Chunk 0 from 2 traveled over 13->14 in epoch 543",
+    "Chunk 0 from 13 traveled over 1->5 in epoch 543",
+    "Chunk 0 from 13 traveled over 1->4 in epoch 543 via switches 0",
+    "Chunk 0 from 6 traveled over 9->11 in epoch 543",
+    "Chunk 0 from 13 traveled over 1->2 in epoch 543",
+    "Chunk 0 from 6 traveled over 9->8 in epoch 543",
+    "Chunk 0 from 13 traveled over 1->3 in epoch 543",
+    "Chunk 0 from 9 traveled over 3->7 in epoch 543",
+    "Chunk 0 from 15 traveled over 1->2 in epoch 544",
+    "Chunk 0 from 10 traveled over 3->7 in epoch 544",
+    "Chunk 0 from 10 traveled over 2->6 in epoch 544",
+    "Chunk 0 from 15 traveled over 1->4 in epoch 544 via switches 0",
+    "Chunk 0 from 7 traveled over 9->10 in epoch 544",
+    "Chunk 0 from 3 traveled over 13->14 in epoch 544",
+    "Chunk 0 from 10 traveled over 5->4 in epoch 544",
+    "Chunk 0 from 15 traveled over 1->3 in epoch 544",
+    "Chunk 0 from 3 traveled over 13->15 in epoch 544",
+    "Chunk 0 from 7 traveled over 9->8 in epoch 544",
+    "Chunk 0 from 7 traveled over 9->11 in epoch 544",
+    "Chunk 0 from 7 traveled over 9->13 in epoch 544",
+    "Chunk 0 from 15 traveled over 1->5 in epoch 544",
+    "Chunk 0 from 3 traveled over 13->12 in epoch 544",
+    "Chunk 0 from 14 traveled over 1->5 in epoch 545",
+    "Chunk 0 from 11 traveled over 3->7 in epoch 545",
+    "Chunk 0 from 11 traveled over 2->6 in epoch 545",
+    "Chunk 0 from 4 traveled over 13->15 in epoch 545",
+    "Chunk 0 from 14 traveled over 1->4 in epoch 545 via switches 0",
+    "Chunk 0 from 4 traveled over 13->14 in epoch 545",
+    "Chunk 0 from 14 traveled over 1->2 in epoch 545",
+    "Chunk 0 from 14 traveled over 1->3 in epoch 545",
+    "Chunk 0 from 11 traveled over 5->4 in epoch 545",
+    "Chunk 0 from 4 traveled over 13->12 in epoch 545",
+    "Chunk 0 from 12 traveled over 5->4 in epoch 546",
+    "Chunk 0 from 12 traveled over 3->7 in epoch 546",
+    "Chunk 0 from 12 traveled over 2->6 in epoch 546",
+    "Chunk 0 from 5 traveled over 11->15 in epoch 683",
+    "Chunk 0 from 5 traveled over 10->14 in epoch 683",
+    "Chunk 0 from 5 traveled over 8->12 in epoch 683",
+    "Chunk 0 from 13 traveled over 3->7 in epoch 684",
+    "Chunk 0 from 6 traveled over 10->14 in epoch 684",
+    "Chunk 0 from 13 traveled over 2->6 in epoch 684",
+    "Chunk 0 from 6 traveled over 11->15 in epoch 684",
+    "Chunk 0 from 6 traveled over 8->12 in epoch 684",
+    "Chunk 0 from 7 traveled over 10->14 in epoch 685",
+    "Chunk 0 from 15 traveled over 2->6 in epoch 685",
+    "Chunk 0 from 15 traveled over 3->7 in epoch 685",
+    "Chunk 0 from 7 traveled over 8->12 in epoch 685",
+    "Chunk 0 from 7 traveled over 11->15 in epoch 685",
+    "Chunk 0 from 14 traveled over 3->7 in epoch 686",
+    "Chunk 0 from 14 traveled over 2->6 in epoch 686"
+  ],
+  "8-Chunk paths": {
+    "Demand at 1 for chunk 0 from 10 met by epoch 402": [
+      "10->8 in epoch 0",
+      "8->1 in epoch 142"
+    ],
+    "Demand at 1 for chunk 0 from 11 met by epoch 403": [
+      "11->8 in epoch 0",
+      "8->1 in epoch 143"
+    ],
+    "Demand at 1 for chunk 0 from 12 met by epoch 404": [
+      "12->8 in epoch 0",
+      "8->1 in epoch 144"
+    ],
+    "Demand at 1 for chunk 0 from 13 met by epoch 542": [
+      "13->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 282"
+    ],
+    "Demand at 1 for chunk 0 from 14 met by epoch 544": [
+      "14->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 284"
+    ],
+    "Demand at 1 for chunk 0 from 15 met by epoch 543": [
+      "15->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 283"
+    ],
+    "Demand at 1 for chunk 0 from 2 met by epoch 140": [
+      "2->1 in epoch 0"
+    ],
+    "Demand at 1 for chunk 0 from 3 met by epoch 140": [
+      "3->1 in epoch 0"
+    ],
+    "Demand at 1 for chunk 0 from 4 met by epoch 280": [
+      "4->1 in epoch 0 via switches 0"
+    ],
+    "Demand at 1 for chunk 0 from 5 met by epoch 140": [
+      "5->1 in epoch 0"
+    ],
+    "Demand at 1 for chunk 0 from 6 met by epoch 281": [
+      "6->2 in epoch 0",
+      "2->1 in epoch 141"
+    ],
+    "Demand at 1 for chunk 0 from 7 met by epoch 281": [
+      "7->3 in epoch 0",
+      "3->1 in epoch 141"
+    ],
+    "Demand at 1 for chunk 0 from 8 met by epoch 260": [
+      "8->1 in epoch 0"
+    ],
+    "Demand at 1 for chunk 0 from 9 met by epoch 401": [
+      "9->8 in epoch 0",
+      "8->1 in epoch 141"
+    ],
+    "Demand at 10 for chunk 0 from 1 met by epoch 541": [
+      "1->9 in epoch 0 via switches 0",
+      "9->10 in epoch 401"
+    ],
+    "Demand at 10 for chunk 0 from 11 met by epoch 140": [
+      "11->10 in epoch 0"
+    ],
+    "Demand at 10 for chunk 0 from 12 met by epoch 281": [
+      "12->8 in epoch 0",
+      "8->10 in epoch 141"
+    ],
+    "Demand at 10 for chunk 0 from 13 met by epoch 281": [
+      "13->14 in epoch 0",
+      "14->10 in epoch 141"
+    ],
+    "Demand at 10 for chunk 0 from 14 met by epoch 140": [
+      "14->10 in epoch 0"
+    ],
+    "Demand at 10 for chunk 0 from 15 met by epoch 281": [
+      "15->14 in epoch 0",
+      "14->10 in epoch 141"
+    ],
+    "Demand at 10 for chunk 0 from 2 met by epoch 542": [
+      "2->9 in epoch 1 via switches 0",
+      "9->10 in epoch 402"
+    ],
+    "Demand at 10 for chunk 0 from 3 met by epoch 543": [
+      "3->9 in epoch 2 via switches 0",
+      "9->10 in epoch 403"
+    ],
+    "Demand at 10 for chunk 0 from 4 met by epoch 544": [
+      "4->9 in epoch 3 via switches 0",
+      "9->10 in epoch 404"
+    ],
+    "Demand at 10 for chunk 0 from 5 met by epoch 682": [
+      "5->1 in epoch 0",
+      "1->9 in epoch 141 via switches 0",
+      "9->10 in epoch 542"
+    ],
+    "Demand at 10 for chunk 0 from 6 met by epoch 683": [
+      "6->4 in epoch 0",
+      "4->9 in epoch 142 via switches 0",
+      "9->10 in epoch 543"
+    ],
+    "Demand at 10 for chunk 0 from 7 met by epoch 684": [
+      "7->4 in epoch 0",
+      "4->9 in epoch 143 via switches 0",
+      "9->10 in epoch 544"
+    ],
+    "Demand at 10 for chunk 0 from 8 met by epoch 140": [
+      "8->10 in epoch 0"
+    ],
+    "Demand at 10 for chunk 0 from 9 met by epoch 140": [
+      "9->10 in epoch 0"
+    ],
+    "Demand at 11 for chunk 0 from 1 met by epoch 541": [
+      "1->9 in epoch 0 via switches 0",
+      "9->11 in epoch 401"
+    ],
+    "Demand at 11 for chunk 0 from 10 met by epoch 140": [
+      "10->11 in epoch 0"
+    ],
+    "Demand at 11 for chunk 0 from 12 met by epoch 281": [
+      "12->8 in epoch 0",
+      "8->11 in epoch 141"
+    ],
+    "Demand at 11 for chunk 0 from 13 met by epoch 281": [
+      "13->9 in epoch 0",
+      "9->11 in epoch 141"
+    ],
+    "Demand at 11 for chunk 0 from 14 met by epoch 281": [
+      "14->10 in epoch 0",
+      "10->11 in epoch 141"
+    ],
+    "Demand at 11 for chunk 0 from 15 met by epoch 140": [
+      "15->11 in epoch 0"
+    ],
+    "Demand at 11 for chunk 0 from 2 met by epoch 542": [
+      "2->9 in epoch 1 via switches 0",
+      "9->11 in epoch 402"
+    ],
+    "Demand at 11 for chunk 0 from 3 met by epoch 543": [
+      "3->9 in epoch 2 via switches 0",
+      "9->11 in epoch 403"
+    ],
+    "Demand at 11 for chunk 0 from 4 met by epoch 544": [
+      "4->9 in epoch 3 via switches 0",
+      "9->11 in epoch 404"
+    ],
+    "Demand at 11 for chunk 0 from 5 met by epoch 682": [
+      "5->1 in epoch 0",
+      "1->9 in epoch 141 via switches 0",
+      "9->11 in epoch 542"
+    ],
+    "Demand at 11 for chunk 0 from 6 met by epoch 683": [
+      "6->4 in epoch 0",
+      "4->9 in epoch 142 via switches 0",
+      "9->11 in epoch 543"
+    ],
+    "Demand at 11 for chunk 0 from 7 met by epoch 684": [
+      "7->4 in epoch 0",
+      "4->9 in epoch 143 via switches 0",
+      "9->11 in epoch 544"
+    ],
+    "Demand at 11 for chunk 0 from 8 met by epoch 140": [
+      "8->11 in epoch 0"
+    ],
+    "Demand at 11 for chunk 0 from 9 met by epoch 140": [
+      "9->11 in epoch 0"
+    ],
+    "Demand at 12 for chunk 0 from 1 met by epoch 682": [
+      "1->9 in epoch 0 via switches 0",
+      "9->13 in epoch 401",
+      "13->12 in epoch 542"
+    ],
+    "Demand at 12 for chunk 0 from 10 met by epoch 281": [
+      "10->8 in epoch 0",
+      "8->12 in epoch 141"
+    ],
+    "Demand at 12 for chunk 0 from 11 met by epoch 281": [
+      "11->15 in epoch 0",
+      "15->12 in epoch 141"
+    ],
+    "Demand at 12 for chunk 0 from 13 met by epoch 140": [
+      "13->12 in epoch 0"
+    ],
+    "Demand at 12 for chunk 0 from 14 met by epoch 140": [
+      "14->12 in epoch 0"
+    ],
+    "Demand at 12 for chunk 0 from 15 met by epoch 140": [
+      "15->12 in epoch 0"
+    ],
+    "Demand at 12 for chunk 0 from 2 met by epoch 683": [
+      "2->9 in epoch 1 via switches 0",
+      "9->13 in epoch 402",
+      "13->12 in epoch 543"
+    ],
+    "Demand at 12 for chunk 0 from 3 met by epoch 684": [
+      "3->9 in epoch 2 via switches 0",
+      "9->13 in epoch 403",
+      "13->12 in epoch 544"
+    ],
+    "Demand at 12 for chunk 0 from 4 met by epoch 685": [
+      "4->9 in epoch 3 via switches 0",
+      "9->13 in epoch 404",
+      "13->12 in epoch 545"
+    ],
+    "Demand at 12 for chunk 0 from 5 met by epoch 823": [
+      "5->1 in epoch 0",
+      "1->9 in epoch 141 via switches 0",
+      "9->8 in epoch 542",
+      "8->12 in epoch 683"
+    ],
+    "Demand at 12 for chunk 0 from 6 met by epoch 824": [
+      "6->4 in epoch 0",
+      "4->9 in epoch 142 via switches 0",
+      "9->8 in epoch 543",
+      "8->12 in epoch 684"
+    ],
+    "Demand at 12 for chunk 0 from 7 met by epoch 825": [
+      "7->4 in epoch 0",
+      "4->9 in epoch 143 via switches 0",
+      "9->8 in epoch 544",
+      "8->12 in epoch 685"
+    ],
+    "Demand at 12 for chunk 0 from 8 met by epoch 140": [
+      "8->12 in epoch 0"
+    ],
+    "Demand at 12 for chunk 0 from 9 met by epoch 281": [
+      "9->8 in epoch 0",
+      "8->12 in epoch 141"
+    ],
+    "Demand at 13 for chunk 0 from 1 met by epoch 541": [
+      "1->9 in epoch 0 via switches 0",
+      "9->13 in epoch 401"
+    ],
+    "Demand at 13 for chunk 0 from 10 met by epoch 281": [
+      "10->14 in epoch 0",
+      "14->13 in epoch 141"
+    ],
+    "Demand at 13 for chunk 0 from 11 met by epoch 281": [
+      "11->15 in epoch 0",
+      "15->13 in epoch 141"
+    ],
+    "Demand at 13 for chunk 0 from 12 met by epoch 140": [
+      "12->13 in epoch 0"
+    ],
+    "Demand at 13 for chunk 0 from 14 met by epoch 140": [
+      "14->13 in epoch 0"
+    ],
+    "Demand at 13 for chunk 0 from 15 met by epoch 140": [
+      "15->13 in epoch 0"
+    ],
+    "Demand at 13 for chunk 0 from 2 met by epoch 542": [
+      "2->9 in epoch 1 via switches 0",
+      "9->13 in epoch 402"
+    ],
+    "Demand at 13 for chunk 0 from 3 met by epoch 543": [
+      "3->9 in epoch 2 via switches 0",
+      "9->13 in epoch 403"
+    ],
+    "Demand at 13 for chunk 0 from 4 met by epoch 544": [
+      "4->9 in epoch 3 via switches 0",
+      "9->13 in epoch 404"
+    ],
+    "Demand at 13 for chunk 0 from 5 met by epoch 682": [
+      "5->1 in epoch 0",
+      "1->9 in epoch 141 via switches 0",
+      "9->13 in epoch 542"
+    ],
+    "Demand at 13 for chunk 0 from 6 met by epoch 683": [
+      "6->4 in epoch 0",
+      "4->9 in epoch 142 via switches 0",
+      "9->13 in epoch 543"
+    ],
+    "Demand at 13 for chunk 0 from 7 met by epoch 684": [
+      "7->4 in epoch 0",
+      "4->9 in epoch 143 via switches 0",
+      "9->13 in epoch 544"
+    ],
+    "Demand at 13 for chunk 0 from 8 met by epoch 281": [
+      "8->12 in epoch 0",
+      "12->13 in epoch 141"
+    ],
+    "Demand at 13 for chunk 0 from 9 met by epoch 140": [
+      "9->13 in epoch 0"
+    ],
+    "Demand at 14 for chunk 0 from 1 met by epoch 682": [
+      "1->9 in epoch 0 via switches 0",
+      "9->13 in epoch 401",
+      "13->14 in epoch 542"
+    ],
+    "Demand at 14 for chunk 0 from 10 met by epoch 140": [
+      "10->14 in epoch 0"
+    ],
+    "Demand at 14 for chunk 0 from 11 met by epoch 281": [
+      "11->10 in epoch 0",
+      "10->14 in epoch 141"
+    ],
+    "Demand at 14 for chunk 0 from 12 met by epoch 140": [
+      "12->14 in epoch 0"
+    ],
+    "Demand at 14 for chunk 0 from 13 met by epoch 140": [
+      "13->14 in epoch 0"
+    ],
+    "Demand at 14 for chunk 0 from 15 met by epoch 140": [
+      "15->14 in epoch 0"
+    ],
+    "Demand at 14 for chunk 0 from 2 met by epoch 683": [
+      "2->9 in epoch 1 via switches 0",
+      "9->13 in epoch 402",
+      "13->14 in epoch 543"
+    ],
+    "Demand at 14 for chunk 0 from 3 met by epoch 684": [
+      "3->9 in epoch 2 via switches 0",
+      "9->13 in epoch 403",
+      "13->14 in epoch 544"
+    ],
+    "Demand at 14 for chunk 0 from 4 met by epoch 685": [
+      "4->9 in epoch 3 via switches 0",
+      "9->13 in epoch 404",
+      "13->14 in epoch 545"
+    ],
+    "Demand at 14 for chunk 0 from 5 met by epoch 823": [
+      "5->1 in epoch 0",
+      "1->9 in epoch 141 via switches 0",
+      "9->10 in epoch 542",
+      "10->14 in epoch 683"
+    ],
+    "Demand at 14 for chunk 0 from 6 met by epoch 824": [
+      "6->4 in epoch 0",
+      "4->9 in epoch 142 via switches 0",
+      "9->10 in epoch 543",
+      "10->14 in epoch 684"
+    ],
+    "Demand at 14 for chunk 0 from 7 met by epoch 825": [
+      "7->4 in epoch 0",
+      "4->9 in epoch 143 via switches 0",
+      "9->10 in epoch 544",
+      "10->14 in epoch 685"
+    ],
+    "Demand at 14 for chunk 0 from 8 met by epoch 281": [
+      "8->10 in epoch 0",
+      "10->14 in epoch 141"
+    ],
+    "Demand at 14 for chunk 0 from 9 met by epoch 281": [
+      "9->10 in epoch 0",
+      "10->14 in epoch 141"
+    ],
+    "Demand at 15 for chunk 0 from 1 met by epoch 682": [
+      "1->9 in epoch 0 via switches 0",
+      "9->13 in epoch 401",
+      "13->15 in epoch 542"
+    ],
+    "Demand at 15 for chunk 0 from 10 met by epoch 281": [
+      "10->14 in epoch 0",
+      "14->15 in epoch 141"
+    ],
+    "Demand at 15 for chunk 0 from 11 met by epoch 140": [
+      "11->15 in epoch 0"
+    ],
+    "Demand at 15 for chunk 0 from 12 met by epoch 140": [
+      "12->15 in epoch 0"
+    ],
+    "Demand at 15 for chunk 0 from 13 met by epoch 140": [
+      "13->15 in epoch 0"
+    ],
+    "Demand at 15 for chunk 0 from 14 met by epoch 140": [
+      "14->15 in epoch 0"
+    ],
+    "Demand at 15 for chunk 0 from 2 met by epoch 683": [
+      "2->9 in epoch 1 via switches 0",
+      "9->13 in epoch 402",
+      "13->15 in epoch 543"
+    ],
+    "Demand at 15 for chunk 0 from 3 met by epoch 684": [
+      "3->9 in epoch 2 via switches 0",
+      "9->13 in epoch 403",
+      "13->15 in epoch 544"
+    ],
+    "Demand at 15 for chunk 0 from 4 met by epoch 685": [
+      "4->9 in epoch 3 via switches 0",
+      "9->13 in epoch 404",
+      "13->15 in epoch 545"
+    ],
+    "Demand at 15 for chunk 0 from 5 met by epoch 823": [
+      "5->1 in epoch 0",
+      "1->9 in epoch 141 via switches 0",
+      "9->11 in epoch 542",
+      "11->15 in epoch 683"
+    ],
+    "Demand at 15 for chunk 0 from 6 met by epoch 824": [
+      "6->4 in epoch 0",
+      "4->9 in epoch 142 via switches 0",
+      "9->11 in epoch 543",
+      "11->15 in epoch 684"
+    ],
+    "Demand at 15 for chunk 0 from 7 met by epoch 825": [
+      "7->4 in epoch 0",
+      "4->9 in epoch 143 via switches 0",
+      "9->11 in epoch 544",
+      "11->15 in epoch 685"
+    ],
+    "Demand at 15 for chunk 0 from 8 met by epoch 281": [
+      "8->12 in epoch 0",
+      "12->15 in epoch 141"
+    ],
+    "Demand at 15 for chunk 0 from 9 met by epoch 281": [
+      "9->13 in epoch 0",
+      "13->15 in epoch 141"
+    ],
+    "Demand at 2 for chunk 0 from 1 met by epoch 140": [
+      "1->2 in epoch 0"
+    ],
+    "Demand at 2 for chunk 0 from 10 met by epoch 543": [
+      "10->8 in epoch 0",
+      "8->1 in epoch 142",
+      "1->2 in epoch 403"
+    ],
+    "Demand at 2 for chunk 0 from 11 met by epoch 544": [
+      "11->8 in epoch 0",
+      "8->1 in epoch 143",
+      "1->2 in epoch 404"
+    ],
+    "Demand at 2 for chunk 0 from 12 met by epoch 545": [
+      "12->8 in epoch 0",
+      "8->1 in epoch 144",
+      "1->2 in epoch 405"
+    ],
+    "Demand at 2 for chunk 0 from 13 met by epoch 683": [
+      "13->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 282",
+      "1->2 in epoch 543"
+    ],
+    "Demand at 2 for chunk 0 from 14 met by epoch 685": [
+      "14->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 284",
+      "1->2 in epoch 545"
+    ],
+    "Demand at 2 for chunk 0 from 15 met by epoch 684": [
+      "15->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 283",
+      "1->2 in epoch 544"
+    ],
+    "Demand at 2 for chunk 0 from 3 met by epoch 140": [
+      "3->2 in epoch 0"
+    ],
+    "Demand at 2 for chunk 0 from 4 met by epoch 280": [
+      "4->2 in epoch 0 via switches 0"
+    ],
+    "Demand at 2 for chunk 0 from 5 met by epoch 281": [
+      "5->6 in epoch 0",
+      "6->2 in epoch 141"
+    ],
+    "Demand at 2 for chunk 0 from 6 met by epoch 140": [
+      "6->2 in epoch 0"
+    ],
+    "Demand at 2 for chunk 0 from 7 met by epoch 281": [
+      "7->3 in epoch 0",
+      "3->2 in epoch 141"
+    ],
+    "Demand at 2 for chunk 0 from 8 met by epoch 401": [
+      "8->1 in epoch 0",
+      "1->2 in epoch 261"
+    ],
+    "Demand at 2 for chunk 0 from 9 met by epoch 542": [
+      "9->8 in epoch 0",
+      "8->1 in epoch 141",
+      "1->2 in epoch 402"
+    ],
+    "Demand at 3 for chunk 0 from 1 met by epoch 140": [
+      "1->3 in epoch 0"
+    ],
+    "Demand at 3 for chunk 0 from 10 met by epoch 543": [
+      "10->8 in epoch 0",
+      "8->1 in epoch 142",
+      "1->3 in epoch 403"
+    ],
+    "Demand at 3 for chunk 0 from 11 met by epoch 544": [
+      "11->8 in epoch 0",
+      "8->1 in epoch 143",
+      "1->3 in epoch 404"
+    ],
+    "Demand at 3 for chunk 0 from 12 met by epoch 545": [
+      "12->8 in epoch 0",
+      "8->1 in epoch 144",
+      "1->3 in epoch 405"
+    ],
+    "Demand at 3 for chunk 0 from 13 met by epoch 683": [
+      "13->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 282",
+      "1->3 in epoch 543"
+    ],
+    "Demand at 3 for chunk 0 from 14 met by epoch 685": [
+      "14->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 284",
+      "1->3 in epoch 545"
+    ],
+    "Demand at 3 for chunk 0 from 15 met by epoch 684": [
+      "15->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 283",
+      "1->3 in epoch 544"
+    ],
+    "Demand at 3 for chunk 0 from 2 met by epoch 140": [
+      "2->3 in epoch 0"
+    ],
+    "Demand at 3 for chunk 0 from 4 met by epoch 280": [
+      "4->3 in epoch 0 via switches 0"
+    ],
+    "Demand at 3 for chunk 0 from 5 met by epoch 281": [
+      "5->1 in epoch 0",
+      "1->3 in epoch 141"
+    ],
+    "Demand at 3 for chunk 0 from 6 met by epoch 281": [
+      "6->7 in epoch 0",
+      "7->3 in epoch 141"
+    ],
+    "Demand at 3 for chunk 0 from 7 met by epoch 140": [
+      "7->3 in epoch 0"
+    ],
+    "Demand at 3 for chunk 0 from 8 met by epoch 401": [
+      "8->1 in epoch 0",
+      "1->3 in epoch 261"
+    ],
+    "Demand at 3 for chunk 0 from 9 met by epoch 542": [
+      "9->8 in epoch 0",
+      "8->1 in epoch 141",
+      "1->3 in epoch 402"
+    ],
+    "Demand at 4 for chunk 0 from 1 met by epoch 280": [
+      "1->4 in epoch 0 via switches 0"
+    ],
+    "Demand at 4 for chunk 0 from 10 met by epoch 684": [
+      "10->8 in epoch 0",
+      "8->1 in epoch 142",
+      "1->5 in epoch 403",
+      "5->4 in epoch 544"
+    ],
+    "Demand at 4 for chunk 0 from 11 met by epoch 685": [
+      "11->8 in epoch 0",
+      "8->1 in epoch 143",
+      "1->5 in epoch 404",
+      "5->4 in epoch 545"
+    ],
+    "Demand at 4 for chunk 0 from 12 met by epoch 686": [
+      "12->8 in epoch 0",
+      "8->1 in epoch 144",
+      "1->5 in epoch 405",
+      "5->4 in epoch 546"
+    ],
+    "Demand at 4 for chunk 0 from 13 met by epoch 823": [
+      "13->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 282",
+      "1->4 in epoch 543 via switches 0"
+    ],
+    "Demand at 4 for chunk 0 from 14 met by epoch 825": [
+      "14->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 284",
+      "1->4 in epoch 545 via switches 0"
+    ],
+    "Demand at 4 for chunk 0 from 15 met by epoch 824": [
+      "15->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 283",
+      "1->4 in epoch 544 via switches 0"
+    ],
+    "Demand at 4 for chunk 0 from 2 met by epoch 280": [
+      "2->4 in epoch 0 via switches 0"
+    ],
+    "Demand at 4 for chunk 0 from 3 met by epoch 280": [
+      "3->4 in epoch 0 via switches 0"
+    ],
+    "Demand at 4 for chunk 0 from 5 met by epoch 140": [
+      "5->4 in epoch 0"
+    ],
+    "Demand at 4 for chunk 0 from 6 met by epoch 140": [
+      "6->4 in epoch 0"
+    ],
+    "Demand at 4 for chunk 0 from 7 met by epoch 140": [
+      "7->4 in epoch 0"
+    ],
+    "Demand at 4 for chunk 0 from 8 met by epoch 541": [
+      "8->1 in epoch 0",
+      "1->4 in epoch 261 via switches 0"
+    ],
+    "Demand at 4 for chunk 0 from 9 met by epoch 682": [
+      "9->8 in epoch 0",
+      "8->1 in epoch 141",
+      "1->4 in epoch 402 via switches 0"
+    ],
+    "Demand at 5 for chunk 0 from 1 met by epoch 140": [
+      "1->5 in epoch 0"
+    ],
+    "Demand at 5 for chunk 0 from 10 met by epoch 543": [
+      "10->8 in epoch 0",
+      "8->1 in epoch 142",
+      "1->5 in epoch 403"
+    ],
+    "Demand at 5 for chunk 0 from 11 met by epoch 544": [
+      "11->8 in epoch 0",
+      "8->1 in epoch 143",
+      "1->5 in epoch 404"
+    ],
+    "Demand at 5 for chunk 0 from 12 met by epoch 545": [
+      "12->8 in epoch 0",
+      "8->1 in epoch 144",
+      "1->5 in epoch 405"
+    ],
+    "Demand at 5 for chunk 0 from 13 met by epoch 683": [
+      "13->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 282",
+      "1->5 in epoch 543"
+    ],
+    "Demand at 5 for chunk 0 from 14 met by epoch 685": [
+      "14->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 284",
+      "1->5 in epoch 545"
+    ],
+    "Demand at 5 for chunk 0 from 15 met by epoch 684": [
+      "15->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 283",
+      "1->5 in epoch 544"
+    ],
+    "Demand at 5 for chunk 0 from 2 met by epoch 281": [
+      "2->1 in epoch 0",
+      "1->5 in epoch 141"
+    ],
+    "Demand at 5 for chunk 0 from 3 met by epoch 281": [
+      "3->1 in epoch 0",
+      "1->5 in epoch 141"
+    ],
+    "Demand at 5 for chunk 0 from 4 met by epoch 140": [
+      "4->5 in epoch 0"
+    ],
+    "Demand at 5 for chunk 0 from 6 met by epoch 140": [
+      "6->5 in epoch 0"
+    ],
+    "Demand at 5 for chunk 0 from 7 met by epoch 140": [
+      "7->5 in epoch 0"
+    ],
+    "Demand at 5 for chunk 0 from 8 met by epoch 401": [
+      "8->1 in epoch 0",
+      "1->5 in epoch 261"
+    ],
+    "Demand at 5 for chunk 0 from 9 met by epoch 542": [
+      "9->8 in epoch 0",
+      "8->1 in epoch 141",
+      "1->5 in epoch 402"
+    ],
+    "Demand at 6 for chunk 0 from 1 met by epoch 281": [
+      "1->5 in epoch 0",
+      "5->6 in epoch 141"
+    ],
+    "Demand at 6 for chunk 0 from 10 met by epoch 684": [
+      "10->8 in epoch 0",
+      "8->1 in epoch 142",
+      "1->2 in epoch 403",
+      "2->6 in epoch 544"
+    ],
+    "Demand at 6 for chunk 0 from 11 met by epoch 685": [
+      "11->8 in epoch 0",
+      "8->1 in epoch 143",
+      "1->2 in epoch 404",
+      "2->6 in epoch 545"
+    ],
+    "Demand at 6 for chunk 0 from 12 met by epoch 686": [
+      "12->8 in epoch 0",
+      "8->1 in epoch 144",
+      "1->2 in epoch 405",
+      "2->6 in epoch 546"
+    ],
+    "Demand at 6 for chunk 0 from 13 met by epoch 824": [
+      "13->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 282",
+      "1->2 in epoch 543",
+      "2->6 in epoch 684"
+    ],
+    "Demand at 6 for chunk 0 from 14 met by epoch 826": [
+      "14->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 284",
+      "1->2 in epoch 545",
+      "2->6 in epoch 686"
+    ],
+    "Demand at 6 for chunk 0 from 15 met by epoch 825": [
+      "15->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 283",
+      "1->2 in epoch 544",
+      "2->6 in epoch 685"
+    ],
+    "Demand at 6 for chunk 0 from 2 met by epoch 140": [
+      "2->6 in epoch 0"
+    ],
+    "Demand at 6 for chunk 0 from 3 met by epoch 281": [
+      "3->2 in epoch 0",
+      "2->6 in epoch 141"
+    ],
+    "Demand at 6 for chunk 0 from 4 met by epoch 140": [
+      "4->6 in epoch 0"
+    ],
+    "Demand at 6 for chunk 0 from 5 met by epoch 140": [
+      "5->6 in epoch 0"
+    ],
+    "Demand at 6 for chunk 0 from 7 met by epoch 140": [
+      "7->6 in epoch 0"
+    ],
+    "Demand at 6 for chunk 0 from 8 met by epoch 542": [
+      "8->1 in epoch 0",
+      "1->2 in epoch 261",
+      "2->6 in epoch 402"
+    ],
+    "Demand at 6 for chunk 0 from 9 met by epoch 683": [
+      "9->8 in epoch 0",
+      "8->1 in epoch 141",
+      "1->2 in epoch 402",
+      "2->6 in epoch 543"
+    ],
+    "Demand at 7 for chunk 0 from 1 met by epoch 281": [
+      "1->5 in epoch 0",
+      "5->7 in epoch 141"
+    ],
+    "Demand at 7 for chunk 0 from 10 met by epoch 684": [
+      "10->8 in epoch 0",
+      "8->1 in epoch 142",
+      "1->3 in epoch 403",
+      "3->7 in epoch 544"
+    ],
+    "Demand at 7 for chunk 0 from 11 met by epoch 685": [
+      "11->8 in epoch 0",
+      "8->1 in epoch 143",
+      "1->3 in epoch 404",
+      "3->7 in epoch 545"
+    ],
+    "Demand at 7 for chunk 0 from 12 met by epoch 686": [
+      "12->8 in epoch 0",
+      "8->1 in epoch 144",
+      "1->3 in epoch 405",
+      "3->7 in epoch 546"
+    ],
+    "Demand at 7 for chunk 0 from 13 met by epoch 824": [
+      "13->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 282",
+      "1->3 in epoch 543",
+      "3->7 in epoch 684"
+    ],
+    "Demand at 7 for chunk 0 from 14 met by epoch 826": [
+      "14->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 284",
+      "1->3 in epoch 545",
+      "3->7 in epoch 686"
+    ],
+    "Demand at 7 for chunk 0 from 15 met by epoch 825": [
+      "15->12 in epoch 0",
+      "12->8 in epoch 141",
+      "8->1 in epoch 283",
+      "1->3 in epoch 544",
+      "3->7 in epoch 685"
+    ],
+    "Demand at 7 for chunk 0 from 2 met by epoch 281": [
+      "2->3 in epoch 0",
+      "3->7 in epoch 141"
+    ],
+    "Demand at 7 for chunk 0 from 3 met by epoch 140": [
+      "3->7 in epoch 0"
+    ],
+    "Demand at 7 for chunk 0 from 4 met by epoch 140": [
+      "4->7 in epoch 0"
+    ],
+    "Demand at 7 for chunk 0 from 5 met by epoch 140": [
+      "5->7 in epoch 0"
+    ],
+    "Demand at 7 for chunk 0 from 6 met by epoch 140": [
+      "6->7 in epoch 0"
+    ],
+    "Demand at 7 for chunk 0 from 8 met by epoch 542": [
+      "8->1 in epoch 0",
+      "1->3 in epoch 261",
+      "3->7 in epoch 402"
+    ],
+    "Demand at 7 for chunk 0 from 9 met by epoch 683": [
+      "9->8 in epoch 0",
+      "8->1 in epoch 141",
+      "1->3 in epoch 402",
+      "3->7 in epoch 543"
+    ],
+    "Demand at 8 for chunk 0 from 1 met by epoch 541": [
+      "1->9 in epoch 0 via switches 0",
+      "9->8 in epoch 401"
+    ],
+    "Demand at 8 for chunk 0 from 10 met by epoch 140": [
+      "10->8 in epoch 0"
+    ],
+    "Demand at 8 for chunk 0 from 11 met by epoch 140": [
+      "11->8 in epoch 0"
+    ],
+    "Demand at 8 for chunk 0 from 12 met by epoch 140": [
+      "12->8 in epoch 0"
+    ],
+    "Demand at 8 for chunk 0 from 13 met by epoch 281": [
+      "13->12 in epoch 0",
+      "12->8 in epoch 141"
+    ],
+    "Demand at 8 for chunk 0 from 14 met by epoch 281": [
+      "14->12 in epoch 0",
+      "12->8 in epoch 141"
+    ],
+    "Demand at 8 for chunk 0 from 15 met by epoch 281": [
+      "15->12 in epoch 0",
+      "12->8 in epoch 141"
+    ],
+    "Demand at 8 for chunk 0 from 2 met by epoch 542": [
+      "2->9 in epoch 1 via switches 0",
+      "9->8 in epoch 402"
+    ],
+    "Demand at 8 for chunk 0 from 3 met by epoch 543": [
+      "3->9 in epoch 2 via switches 0",
+      "9->8 in epoch 403"
+    ],
+    "Demand at 8 for chunk 0 from 4 met by epoch 544": [
+      "4->9 in epoch 3 via switches 0",
+      "9->8 in epoch 404"
+    ],
+    "Demand at 8 for chunk 0 from 5 met by epoch 682": [
+      "5->1 in epoch 0",
+      "1->9 in epoch 141 via switches 0",
+      "9->8 in epoch 542"
+    ],
+    "Demand at 8 for chunk 0 from 6 met by epoch 683": [
+      "6->4 in epoch 0",
+      "4->9 in epoch 142 via switches 0",
+      "9->8 in epoch 543"
+    ],
+    "Demand at 8 for chunk 0 from 7 met by epoch 684": [
+      "7->4 in epoch 0",
+      "4->9 in epoch 143 via switches 0",
+      "9->8 in epoch 544"
+    ],
+    "Demand at 8 for chunk 0 from 9 met by epoch 140": [
+      "9->8 in epoch 0"
+    ],
+    "Demand at 9 for chunk 0 from 1 met by epoch 400": [
+      "1->9 in epoch 0 via switches 0"
+    ],
+    "Demand at 9 for chunk 0 from 10 met by epoch 140": [
+      "10->9 in epoch 0"
+    ],
+    "Demand at 9 for chunk 0 from 11 met by epoch 140": [
+      "11->9 in epoch 0"
+    ],
+    "Demand at 9 for chunk 0 from 12 met by epoch 281": [
+      "12->8 in epoch 0",
+      "8->9 in epoch 141"
+    ],
+    "Demand at 9 for chunk 0 from 13 met by epoch 140": [
+      "13->9 in epoch 0"
+    ],
+    "Demand at 9 for chunk 0 from 14 met by epoch 281": [
+      "14->10 in epoch 0",
+      "10->9 in epoch 141"
+    ],
+    "Demand at 9 for chunk 0 from 15 met by epoch 281": [
+      "15->13 in epoch 0",
+      "13->9 in epoch 141"
+    ],
+    "Demand at 9 for chunk 0 from 2 met by epoch 401": [
+      "2->9 in epoch 1 via switches 0"
+    ],
+    "Demand at 9 for chunk 0 from 3 met by epoch 402": [
+      "3->9 in epoch 2 via switches 0"
+    ],
+    "Demand at 9 for chunk 0 from 4 met by epoch 403": [
+      "4->9 in epoch 3 via switches 0"
+    ],
+    "Demand at 9 for chunk 0 from 5 met by epoch 541": [
+      "5->1 in epoch 0",
+      "1->9 in epoch 141 via switches 0"
+    ],
+    "Demand at 9 for chunk 0 from 6 met by epoch 542": [
+      "6->4 in epoch 0",
+      "4->9 in epoch 142 via switches 0"
+    ],
+    "Demand at 9 for chunk 0 from 7 met by epoch 543": [
+      "7->4 in epoch 0",
+      "4->9 in epoch 143 via switches 0"
+    ],
+    "Demand at 9 for chunk 0 from 8 met by epoch 140": [
+      "8->9 in epoch 0"
+    ]
+  },
+  "Solver_Time": 624.3349928855896
+}
