@@ -22,7 +22,7 @@ For multi-node experiments, a `hostfile` specifying the IP addresses of all node
 where 16 means each node has 16 GPUs.
 
 ### ROCm
-Our experiments [ROCm](https://github.com/ROCm/ROCm) version 5.7.3.
+Our experiments used [ROCm](https://github.com/ROCm/ROCm) version 5.7.3.
 
 ### RCCL and rccl-tests
 Build [RCCL](https://github.com/ROCm/rccl) first.
