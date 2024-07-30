@@ -31,7 +31,7 @@ class AMD(Topology):
         adjacency_list[14] = {10: 1, 12: 1, 13: 1, 15: 4}
         adjacency_list[15] = {11: 2, 13: 1, 14: 4}
 
-        devices_consider = topo_input.option
+        devices_consider = 16 # Consider 16 devices in a chassis. If the number is less than 16, a subset of the devices will be considered
         single_capacity = [
             [0 for _ in range(devices_consider)] for _ in range(devices_consider)]
         for i in range(devices_consider):
