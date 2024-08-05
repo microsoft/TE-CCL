@@ -9,7 +9,24 @@ TE-CCL takes in a topology and collective (e.g. AllGather) and outputs a schedul
 > **SIGCOMM 2024** [https://doi.org/10.1145/3651890.3672249]
 
 ## Citing TE-CCL
-[TO BE FILLED]
+```
+@inproceedings{10.1145/3651890.3672249,
+author = {Liu, Xuting and Arzani, Behnaz and Kakarla, Siva Kesava Reddy and Zhao, Liangyu and Liu, Vincent and Castro, Miguel and Kandula, Srikanth and Marshall, Luke},
+title = {Rethinking Machine Learning Collective Communication as a Multi-Commodity Flow Problem},
+year = {2024},
+isbn = {9798400706141},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3651890.3672249},
+doi = {10.1145/3651890.3672249},
+booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference},
+pages = {16–37},
+numpages = {22},
+keywords = {GPU, collective communication, traffic engineering},
+location = {Sydney, NSW, Australia},
+series = {ACM SIGCOMM '24}
+}
+```
 
 ## Installation
 ### Prerequisites
