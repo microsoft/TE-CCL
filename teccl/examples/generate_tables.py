@@ -69,22 +69,29 @@ def generate_comparison_table(topology: str, chassis: str, collective: str, epoc
             improvement = (teccl - taccl) / taccl * 100
             improvement = str(round(improvement, 2))
             improvements.append(improvement)
+    
+    comparison_tables_dir = OUTPUT_DIR / Path("comparison_tables/")
+    comparison_tables_dir.mkdir(parents=True, exist_ok=True)
+
     comp_df["Improvement (%)"] = improvements
-    comp_df.to_csv(OUTPUT_DIR / Path(f"comparison_tables/{name_prefix}{topology}_{chassis}_{collective}_{epoch_type}.csv"), index=False)
+    comp_df.to_csv(comparison_tables_dir / Path(f"{name_prefix}{topology}_{chassis}_{collective}_{epoch_type}.csv"), index=False)
     print(f"Comparison table for {topology}_{chassis}_{collective}_{epoch_type} generated.", flush=True)    
 
 
 
 if __name__ == "__main__":
-    # for topology in ["NDv2", "DGX2"]:
-    #     for collective in ["AllGather", "AlltoAll"]:
-    #         for epoch_type in ["Fast", "Fast_Early_Stop", "Slow"]:
-    #             if topology == "NDv2":
-    #                 for chassis in ["2_chassis", "4_chassis"]:
-    #                     generate_individual_table(topology, chassis, collective, epoch_type)
-    #             else:
-    #                 chassis = "2_chassis"
-    #                 generate_individual_table(topology, chassis, collective, epoch_type)
+    for topology in ["NDv2", "DGX2"]:
+        for collective in ["AllGather", "AlltoAll"]:
+            for epoch_type in ["Fast", "Fast_Early_Stop", "Slow"]:
+                if epoch_type == "Fast_Early_Stop" and collective == "AlltoAll":
+                    # AlltoAll does not have Fast_Early_Stop
+                    continue
+                if topology == "NDv2":
+                    for chassis in ["2_chassis", "4_chassis"]:
+                        generate_individual_table(topology, chassis, collective, epoch_type)
+                else:
+                    chassis = "2_chassis"
+                    generate_individual_table(topology, chassis, collective, epoch_type)
     
     generate_comparison_table("NDv2", "2_chassis", "AlltoAll", "Fast", "tab8_1_")
     generate_comparison_table("NDv2", "2_chassis", "AlltoAll", "Slow", "tab8_2_")
