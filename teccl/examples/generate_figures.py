@@ -29,92 +29,92 @@ def read_collective_time(file_name: str):
 
 def plot_taccl_comparison():
 
-    ###########################################################################NDV2 solution quality###################################################################################
+    ###########################################################################NDv2 solution quality###################################################################################
     transfer_size = [1 * 1000, 0.256 * 1000, 0.064 * 1000, 0.016 * 1000, 0.004 * 1000, 0.001 * 1000, 0.000256 * 1000, 6.40E-05 * 1000, 1.60E-05 * 1000, 4.00E-06 * 1000, 1.00E-06 * 1000]
     transfer_size = ['1G', '256M', '64M', '16M', '4M', '1M', '256K', '64K', '16K', '4K', '1K']
-    TECCL_allgather_NDV2_2Chassis_alg_bnw = read_alg_bnw("NDV2_2_chassis_AllGather_Fast.csv")
-    TECCL_allgather_NDV2_2Chassis_alg_bnw_early_stop = read_alg_bnw("NDV2_2_chassis_AllGather_Fast_Early_Stop.csv")
-    TACCL_allgather_NDV2_2Chassis_alg_bnw  = [18.59887254, 20.48885118, 20.42640112, 0, 18.47575058, 16.09010459, 10.13460016, 4.8929664, 1.2618297, 0.3375527, 0.0984373]
-    TECCL_allgather_NDV2_4Chassis_alg_bnw = read_alg_bnw("NDV2_4_chassis_AllGather_Fast.csv")
-    TECCL_allgather_NDV2_4Chassis_alg_bnw_early_stop = read_alg_bnw("NDV2_4_chassis_AllGather_Fast_Early_Stop.csv")
-    TACCL_allgather_NDV2_4Chassis_alg_bnw = [0, 15.62948356, 15.18458764, 14.96305995, 12.7064803, 8.302200083, 3.505888798, 1.05890139, 0.304645849, 0.077287219, 0.067381897]
+    TECCL_allgather_NDv2_2Chassis_alg_bnw = read_alg_bnw("NDv2_2_chassis_AllGather_Fast.csv")
+    TECCL_allgather_NDv2_2Chassis_alg_bnw_early_stop = read_alg_bnw("NDv2_2_chassis_AllGather_Fast_Early_Stop.csv")
+    TACCL_allgather_NDv2_2Chassis_alg_bnw  = [18.59887254, 20.48885118, 20.42640112, 0, 18.47575058, 16.09010459, 10.13460016, 4.8929664, 1.2618297, 0.3375527, 0.0984373]
+    TECCL_allgather_NDv2_4Chassis_alg_bnw = read_alg_bnw("NDv2_4_chassis_AllGather_Fast.csv")
+    TECCL_allgather_NDv2_4Chassis_alg_bnw_early_stop = read_alg_bnw("NDv2_4_chassis_AllGather_Fast_Early_Stop.csv")
+    TACCL_allgather_NDv2_4Chassis_alg_bnw = [0, 15.62948356, 15.18458764, 14.96305995, 12.7064803, 8.302200083, 3.505888798, 1.05890139, 0.304645849, 0.077287219, 0.067381897]
     
 
-    speedup_allgather_NDV2_2Chassis_normal = []
-    speedup_allgather_NDV2_2Chassis_early_stop = []
-    speedup_allgather_NDV2_4Chassis_normal = []
-    speedup_allgather_NDV2_4Chassis_early_stop = []
+    speedup_allgather_NDv2_2Chassis_normal = []
+    speedup_allgather_NDv2_2Chassis_early_stop = []
+    speedup_allgather_NDv2_4Chassis_normal = []
+    speedup_allgather_NDv2_4Chassis_early_stop = []
     early_stop_2 =[]
     normal_2 = []
     early_stop_4 = []
     normal_4 = []
     infeasible_instances = []
     for i in range(len(transfer_size)):
-        if TACCL_allgather_NDV2_2Chassis_alg_bnw[i] == 0 and len(speedup_allgather_NDV2_2Chassis_normal) > 0:
-            infeasible_instances += [(transfer_size[i], speedup_allgather_NDV2_2Chassis_normal[-1])]
-            speedup_allgather_NDV2_2Chassis_normal += [speedup_allgather_NDV2_2Chassis_normal[-1]]
-            infeasible_instances += [(transfer_size[i], speedup_allgather_NDV2_2Chassis_early_stop[-1])]
-            speedup_allgather_NDV2_2Chassis_early_stop += [speedup_allgather_NDV2_2Chassis_early_stop[-1]]
-        elif TACCL_allgather_NDV2_2Chassis_alg_bnw[i] == 0:
+        if TACCL_allgather_NDv2_2Chassis_alg_bnw[i] == 0 and len(speedup_allgather_NDv2_2Chassis_normal) > 0:
+            infeasible_instances += [(transfer_size[i], speedup_allgather_NDv2_2Chassis_normal[-1])]
+            speedup_allgather_NDv2_2Chassis_normal += [speedup_allgather_NDv2_2Chassis_normal[-1]]
+            infeasible_instances += [(transfer_size[i], speedup_allgather_NDv2_2Chassis_early_stop[-1])]
+            speedup_allgather_NDv2_2Chassis_early_stop += [speedup_allgather_NDv2_2Chassis_early_stop[-1]]
+        elif TACCL_allgather_NDv2_2Chassis_alg_bnw[i] == 0:
             infeasible_instances += [(transfer_size[i], 100)]
-            speedup_allgather_NDV2_2Chassis_normal += [100]
-            speedup_allgather_NDV2_2Chassis_early_stop += [100]
+            speedup_allgather_NDv2_2Chassis_normal += [100]
+            speedup_allgather_NDv2_2Chassis_early_stop += [100]
         else:
-            speedup_allgather_NDV2_2Chassis_normal += [(TECCL_allgather_NDV2_2Chassis_alg_bnw[i] -TACCL_allgather_NDV2_2Chassis_alg_bnw[i]) * 100/TACCL_allgather_NDV2_2Chassis_alg_bnw[i]]
-            speedup_allgather_NDV2_2Chassis_early_stop += [(TECCL_allgather_NDV2_2Chassis_alg_bnw_early_stop[i] - TACCL_allgather_NDV2_2Chassis_alg_bnw[i]) * 100/TACCL_allgather_NDV2_2Chassis_alg_bnw[i]]
+            speedup_allgather_NDv2_2Chassis_normal += [(TECCL_allgather_NDv2_2Chassis_alg_bnw[i] -TACCL_allgather_NDv2_2Chassis_alg_bnw[i]) * 100/TACCL_allgather_NDv2_2Chassis_alg_bnw[i]]
+            speedup_allgather_NDv2_2Chassis_early_stop += [(TECCL_allgather_NDv2_2Chassis_alg_bnw_early_stop[i] - TACCL_allgather_NDv2_2Chassis_alg_bnw[i]) * 100/TACCL_allgather_NDv2_2Chassis_alg_bnw[i]]
         early_stop_2 += ['2 ch, AG, ES']
         normal_2 += ['2 ch, AG, opt']
         early_stop_4 += ['4 ch, AG, ES']
         normal_4 += ['4 ch, AG, opt']
-        if TACCL_allgather_NDV2_4Chassis_alg_bnw[i] == 0 and len(speedup_allgather_NDV2_4Chassis_early_stop) > 0:
-            infeasible_instances += [(transfer_size[i], speedup_allgather_NDV2_4Chassis_normal[-1])]
-            speedup_allgather_NDV2_4Chassis_normal += [speedup_allgather_NDV2_4Chassis_normal[-1]]
-            infeasible_instances += [(transfer_size[i], speedup_allgather_NDV2_4Chassis_early_stop[-1])]
-            speedup_allgather_NDV2_4Chassis_early_stop += [speedup_allgather_NDV2_4Chassis_early_stop[-1]]
+        if TACCL_allgather_NDv2_4Chassis_alg_bnw[i] == 0 and len(speedup_allgather_NDv2_4Chassis_early_stop) > 0:
+            infeasible_instances += [(transfer_size[i], speedup_allgather_NDv2_4Chassis_normal[-1])]
+            speedup_allgather_NDv2_4Chassis_normal += [speedup_allgather_NDv2_4Chassis_normal[-1]]
+            infeasible_instances += [(transfer_size[i], speedup_allgather_NDv2_4Chassis_early_stop[-1])]
+            speedup_allgather_NDv2_4Chassis_early_stop += [speedup_allgather_NDv2_4Chassis_early_stop[-1]]
             
-        elif TACCL_allgather_NDV2_4Chassis_alg_bnw[i] == 0:
+        elif TACCL_allgather_NDv2_4Chassis_alg_bnw[i] == 0:
             infeasible_instances += [(transfer_size[i], 100)]
-            speedup_allgather_NDV2_4Chassis_normal += [100]
-            speedup_allgather_NDV2_4Chassis_early_stop += [100]
+            speedup_allgather_NDv2_4Chassis_normal += [100]
+            speedup_allgather_NDv2_4Chassis_early_stop += [100]
         else:
-            speedup_allgather_NDV2_4Chassis_normal += [(TECCL_allgather_NDV2_4Chassis_alg_bnw[i]- TACCL_allgather_NDV2_4Chassis_alg_bnw[i]) * 100/ TACCL_allgather_NDV2_4Chassis_alg_bnw[i]]
-            speedup_allgather_NDV2_4Chassis_early_stop += [(TECCL_allgather_NDV2_4Chassis_alg_bnw_early_stop[i] - TACCL_allgather_NDV2_4Chassis_alg_bnw[i]) * 100/TACCL_allgather_NDV2_4Chassis_alg_bnw[i]]
+            speedup_allgather_NDv2_4Chassis_normal += [(TECCL_allgather_NDv2_4Chassis_alg_bnw[i]- TACCL_allgather_NDv2_4Chassis_alg_bnw[i]) * 100/ TACCL_allgather_NDv2_4Chassis_alg_bnw[i]]
+            speedup_allgather_NDv2_4Chassis_early_stop += [(TECCL_allgather_NDv2_4Chassis_alg_bnw_early_stop[i] - TACCL_allgather_NDv2_4Chassis_alg_bnw[i]) * 100/TACCL_allgather_NDv2_4Chassis_alg_bnw[i]]
 
 
-    NDv2_2_chassis_allgather_early_stop = pd.DataFrame(list(zip(transfer_size, speedup_allgather_NDV2_2Chassis_early_stop, early_stop_2 )), columns = ['transfer size', 'perf improvement', 'experiment']) 
-    NDv2_2_chassis_allgather = pd.DataFrame(list(zip(transfer_size, speedup_allgather_NDV2_2Chassis_normal, normal_2)), columns = ['transfer size', 'perf improvement', 'experiment'])
-    NDv2_4_chassis_allgather = pd.DataFrame(list(zip(transfer_size, speedup_allgather_NDV2_4Chassis_normal, normal_4 )), columns = ['transfer size', 'perf improvement', 'experiment'])
-    NDv2_4_chassis_allgather_early_stop = pd.DataFrame(list(zip(transfer_size, speedup_allgather_NDV2_4Chassis_early_stop, early_stop_4)), columns = ['transfer size', 'perf improvement', 'experiment'])
+    NDv2_2_chassis_allgather_early_stop = pd.DataFrame(list(zip(transfer_size, speedup_allgather_NDv2_2Chassis_early_stop, early_stop_2 )), columns = ['transfer size', 'perf improvement', 'experiment']) 
+    NDv2_2_chassis_allgather = pd.DataFrame(list(zip(transfer_size, speedup_allgather_NDv2_2Chassis_normal, normal_2)), columns = ['transfer size', 'perf improvement', 'experiment'])
+    NDv2_4_chassis_allgather = pd.DataFrame(list(zip(transfer_size, speedup_allgather_NDv2_4Chassis_normal, normal_4 )), columns = ['transfer size', 'perf improvement', 'experiment'])
+    NDv2_4_chassis_allgather_early_stop = pd.DataFrame(list(zip(transfer_size, speedup_allgather_NDv2_4Chassis_early_stop, early_stop_4)), columns = ['transfer size', 'perf improvement', 'experiment'])
 
 #***************alltoall*****************
 
-    TECCL_NDV2_2_chassis_alltoall_bw = read_alg_bnw("NDV2_2_chassis_AlltoAll_Fast.csv")
-    TACCL_NDV2_2_chassis_alltoall_bw = [3.124517653, 3.123314813, 3.117085525, 3.098133375, 3.020691738, 2.78551532, 2.212236432, 1.271354787, 0.447427293, 0.12455239, 0.027174836]
-    TECCL_NDV2_4_chassis_alltoall_bw = [2.06918849, 2.073210236, 2.073210236, 2.073210236, 2.053256336, 2.037567654, 1.993092124, 1.828049129, 1.307189542, 0.448933782, 0.180913614]
-    TACCL_NDV2_4_chassis_alltoall_bw = [2.081371641, 2.075953966, 2.054297655, 1.968697706, 1.701258932, 0, 0.767662229, 0.280308339, 0.076016724, 0.022813146, 0.00599224]
+    TECCL_NDv2_2_chassis_alltoall_bw = read_alg_bnw("NDv2_2_chassis_AlltoAll_Fast.csv")
+    TACCL_NDv2_2_chassis_alltoall_bw = [3.124517653, 3.123314813, 3.117085525, 3.098133375, 3.020691738, 2.78551532, 2.212236432, 1.271354787, 0.447427293, 0.12455239, 0.027174836]
+    TECCL_NDv2_4_chassis_alltoall_bw = [2.06918849, 2.073210236, 2.073210236, 2.073210236, 2.053256336, 2.037567654, 1.993092124, 1.828049129, 1.307189542, 0.448933782, 0.180913614]
+    TACCL_NDv2_4_chassis_alltoall_bw = [2.081371641, 2.075953966, 2.054297655, 1.968697706, 1.701258932, 0, 0.767662229, 0.280308339, 0.076016724, 0.022813146, 0.00599224]
 
-    speedup_NDV2_2Chassis_alltoall = []
-    speedup_NDV2_4Chassis_alltoall = []
+    speedup_NDv2_2Chassis_alltoall = []
+    speedup_NDv2_4Chassis_alltoall = []
     normal_2_alltoall = []
     normal_4_alltoall = []
-    for i in range(len(TACCL_NDV2_2_chassis_alltoall_bw)):
+    for i in range(len(TACCL_NDv2_2_chassis_alltoall_bw)):
         normal_2_alltoall += ['2 ch, AtoA']
-        speedup_NDV2_2Chassis_alltoall += [(TECCL_NDV2_2_chassis_alltoall_bw[i] - TACCL_NDV2_2_chassis_alltoall_bw[i]) * 100 / TACCL_NDV2_2_chassis_alltoall_bw[i]]
+        speedup_NDv2_2Chassis_alltoall += [(TECCL_NDv2_2_chassis_alltoall_bw[i] - TACCL_NDv2_2_chassis_alltoall_bw[i]) * 100 / TACCL_NDv2_2_chassis_alltoall_bw[i]]
         normal_4_alltoall += ['4 ch, AtoA']
-        if TACCL_NDV2_4_chassis_alltoall_bw[i] > 0:
-            speedup_NDV2_4Chassis_alltoall += [(TECCL_NDV2_4_chassis_alltoall_bw[i] - TACCL_NDV2_4_chassis_alltoall_bw[i]) * 100/TACCL_NDV2_4_chassis_alltoall_bw[i]]
-        elif len(speedup_NDV2_4Chassis_alltoall) > 0:
-            infeasible_instances += [(transfer_size[i], speedup_NDV2_4Chassis_alltoall[-1])]
-            speedup_NDV2_4Chassis_alltoall += [speedup_NDV2_4Chassis_alltoall[-1]]
+        if TACCL_NDv2_4_chassis_alltoall_bw[i] > 0:
+            speedup_NDv2_4Chassis_alltoall += [(TECCL_NDv2_4_chassis_alltoall_bw[i] - TACCL_NDv2_4_chassis_alltoall_bw[i]) * 100/TACCL_NDv2_4_chassis_alltoall_bw[i]]
+        elif len(speedup_NDv2_4Chassis_alltoall) > 0:
+            infeasible_instances += [(transfer_size[i], speedup_NDv2_4Chassis_alltoall[-1])]
+            speedup_NDv2_4Chassis_alltoall += [speedup_NDv2_4Chassis_alltoall[-1]]
         else:
             infeasible_instances += [(transfer_size[i], 100)]
-            speedup_NDV2_4Chassis_alltoall += [100]
+            speedup_NDv2_4Chassis_alltoall += [100]
 
-    speedup_NDV2_2Chassis_alltoall = pd.DataFrame(list(zip(transfer_size, speedup_NDV2_2Chassis_alltoall, normal_2_alltoall)), columns = ['transfer size', 'perf improvement', 'experiment'])
-    speedup_NDV2_4Chassis_alltoall = pd.DataFrame(list(zip(transfer_size, speedup_NDV2_4Chassis_alltoall, normal_4_alltoall)), columns = ['transfer size', 'perf improvement', 'experiment'])
+    speedup_NDv2_2Chassis_alltoall = pd.DataFrame(list(zip(transfer_size, speedup_NDv2_2Chassis_alltoall, normal_2_alltoall)), columns = ['transfer size', 'perf improvement', 'experiment'])
+    speedup_NDv2_4Chassis_alltoall = pd.DataFrame(list(zip(transfer_size, speedup_NDv2_4Chassis_alltoall, normal_4_alltoall)), columns = ['transfer size', 'perf improvement', 'experiment'])
 
-    speedup_NDV2_alltoall_bw = pd.concat([speedup_NDV2_2Chassis_alltoall,speedup_NDV2_4Chassis_alltoall ])
-    speedup_NDV2_alltoall_bw = speedup_NDV2_alltoall_bw.reset_index()
+    speedup_NDv2_alltoall_bw = pd.concat([speedup_NDv2_2Chassis_alltoall,speedup_NDv2_4Chassis_alltoall ])
+    speedup_NDv2_alltoall_bw = speedup_NDv2_alltoall_bw.reset_index()
 
     speedup_ndv2 = pd.concat([NDv2_2_chassis_allgather_early_stop, NDv2_2_chassis_allgather, NDv2_4_chassis_allgather_early_stop, NDv2_4_chassis_allgather])
     speedup_ndv2 = speedup_ndv2.reset_index()
@@ -122,11 +122,11 @@ def plot_taccl_comparison():
     print(speedup_ndv2.groupby(['experiment']).max())
 
 
-    allgather_NDV2_2Chassis = pd.concat([NDv2_2_chassis_allgather_early_stop, NDv2_2_chassis_allgather, NDv2_4_chassis_allgather_early_stop, NDv2_4_chassis_allgather, speedup_NDV2_2Chassis_alltoall, speedup_NDV2_4Chassis_alltoall])
-    allgather_NDV2_2Chassis = allgather_NDV2_2Chassis.reset_index()
+    allgather_NDv2_2Chassis = pd.concat([NDv2_2_chassis_allgather_early_stop, NDv2_2_chassis_allgather, NDv2_4_chassis_allgather_early_stop, NDv2_4_chassis_allgather, speedup_NDv2_2Chassis_alltoall, speedup_NDv2_4Chassis_alltoall])
+    allgather_NDv2_2Chassis = allgather_NDv2_2Chassis.reset_index()
     plt.figure().clear()
     myplot = sns.relplot(x='transfer size', y='perf improvement', 
-                data=allgather_NDV2_2Chassis, hue = 'experiment',  style= 'experiment', kind="line", ci=95, palette="muted",linewidth = 7, height=8, aspect=11.7/8.27)
+                data=allgather_NDv2_2Chassis, hue = 'experiment',  style= 'experiment', kind="line", ci=95, palette="muted",linewidth = 7, height=8, aspect=11.7/8.27)
   
     legend = plt.legend( loc="upper left", frameon=True, fontsize=24)
     for line in legend.get_lines():
@@ -146,14 +146,14 @@ def plot_taccl_comparison():
     myplot.savefig(OUTPUT_DIR / Path("fig_5_a.pdf"), bbox_inches = "tight")
 
 ## *****raw numbers **********************
-    allgather_normal_NDV2_2chassis = pd.DataFrame(list(zip(transfer_size, TECCL_allgather_NDV2_2Chassis_alg_bnw, normal_2)), columns = ['transfer size', 'algorithm bandwidth (Gb/s)', 'experiment'])
-    allgather_normal_NDV2_4chassis = pd.DataFrame(list(zip(transfer_size, TECCL_allgather_NDV2_4Chassis_alg_bnw, normal_4)), columns = ['transfer size', 'algorithm bandwidth (Gb/s)', 'experiment'])
-    allgather_early_stop_NDV2_2chassis = pd.DataFrame(list(zip(transfer_size, TECCL_allgather_NDV2_2Chassis_alg_bnw_early_stop, early_stop_2)), columns = ['transfer size', 'algorithm bandwidth (Gb/s)', 'experiment'])
-    allgather_early_stop_NDV2_4chassis = pd.DataFrame(list(zip(transfer_size, TECCL_allgather_NDV2_4Chassis_alg_bnw_early_stop, early_stop_4)), columns = ['transfer size', 'algorithm bandwidth (Gb/s)', 'experiment'])
-    alltoall_normal_NDV2_2chassis = pd.DataFrame(list(zip(transfer_size, TECCL_NDV2_2_chassis_alltoall_bw, normal_2_alltoall)), columns = ['transfer size', 'algorithm bandwidth (Gb/s)', 'experiment'])
-    alltoall_normal_NDV2_4chassis = pd.DataFrame(list(zip(transfer_size, TECCL_NDV2_4_chassis_alltoall_bw, normal_4_alltoall)), columns = ['transfer size', 'algorithm bandwidth (Gb/s)', 'experiment'])
-    all_data_allgather_NDV2 = pd.concat([allgather_normal_NDV2_2chassis, allgather_normal_NDV2_4chassis, allgather_early_stop_NDV2_2chassis, allgather_early_stop_NDV2_4chassis, alltoall_normal_NDV2_2chassis, alltoall_normal_NDV2_4chassis ])
-    all_data_allgather_NDV2 = all_data_allgather_NDV2.reset_index()
+    allgather_normal_NDv2_2chassis = pd.DataFrame(list(zip(transfer_size, TECCL_allgather_NDv2_2Chassis_alg_bnw, normal_2)), columns = ['transfer size', 'algorithm bandwidth (Gb/s)', 'experiment'])
+    allgather_normal_NDv2_4chassis = pd.DataFrame(list(zip(transfer_size, TECCL_allgather_NDv2_4Chassis_alg_bnw, normal_4)), columns = ['transfer size', 'algorithm bandwidth (Gb/s)', 'experiment'])
+    allgather_early_stop_NDv2_2chassis = pd.DataFrame(list(zip(transfer_size, TECCL_allgather_NDv2_2Chassis_alg_bnw_early_stop, early_stop_2)), columns = ['transfer size', 'algorithm bandwidth (Gb/s)', 'experiment'])
+    allgather_early_stop_NDv2_4chassis = pd.DataFrame(list(zip(transfer_size, TECCL_allgather_NDv2_4Chassis_alg_bnw_early_stop, early_stop_4)), columns = ['transfer size', 'algorithm bandwidth (Gb/s)', 'experiment'])
+    alltoall_normal_NDv2_2chassis = pd.DataFrame(list(zip(transfer_size, TECCL_NDv2_2_chassis_alltoall_bw, normal_2_alltoall)), columns = ['transfer size', 'algorithm bandwidth (Gb/s)', 'experiment'])
+    alltoall_normal_NDv2_4chassis = pd.DataFrame(list(zip(transfer_size, TECCL_NDv2_4_chassis_alltoall_bw, normal_4_alltoall)), columns = ['transfer size', 'algorithm bandwidth (Gb/s)', 'experiment'])
+    all_data_allgather_NDv2 = pd.concat([allgather_normal_NDv2_2chassis, allgather_normal_NDv2_4chassis, allgather_early_stop_NDv2_2chassis, allgather_early_stop_NDv2_4chassis, alltoall_normal_NDv2_2chassis, alltoall_normal_NDv2_4chassis ])
+    all_data_allgather_NDv2 = all_data_allgather_NDv2.reset_index()
     
 
 
