@@ -14,6 +14,7 @@ setup(
         'argcomplete',
         'gurobipy',
         'numpy',
+        'seaborn'
     ],
     python_requires='>=3.6',
 )

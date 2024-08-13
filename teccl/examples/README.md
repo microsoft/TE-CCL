@@ -101,3 +101,6 @@ We have been improving TE-CCL since publication so results here are similar to o
 
 ### Proprietary Internal Topology
 All the data and figures that involve our proprietary internal topology (int1 and int2 topology in the paper) are removed from the codebase to protect proprietary information.
+
+### Python Version
+`generate_figures.py` requires Python 3.7. TE-CCL was tested with Python 3.9.

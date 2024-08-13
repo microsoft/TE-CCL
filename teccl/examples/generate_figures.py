@@ -399,13 +399,13 @@ def plot_small_vs_large_epochs():
     ndv2_2chassis_allgather['experiment'] = 'NDv2\n  AG'
 
     
-    ndv2_min_2chassis_solution_time_alltoall = read_collective_time("NDv2_2_chassis_AllToAll_Fast.csv")
+    ndv2_min_2chassis_solution_time_alltoall = read_collective_time("NDv2_2_chassis_AlltoAll_Fast.csv")
     
     ndv2_min_2chassis_solver_time_alltoall = [336.501, 307.333, 339.922, 280.821, 165.627, 189.469, 218.497, 161.994, 182.077, 69.577, 196.721]
     
     ndv2_max_2chassis_solver_time_alltoall = [14.815, 14.357, 11.009, 9.958, 11.812, 10.845, 9.974, 10.461, 8.827, 20.901, 276.47]
     
-    ndv2_max_2chassis_solution_time_alltoall = read_collective_time("NDv2_2_chassis_AllToAll_Slow.csv")
+    ndv2_max_2chassis_solution_time_alltoall = read_collective_time("NDv2_2_chassis_AlltoAll_Slow.csv")
 
     ndv2_2chassis_alltoall = pd.DataFrame(list(zip(ndv2_min_2chassis_solution_time_alltoall, ndv2_min_2chassis_solver_time_alltoall, ndv2_max_2chassis_solution_time_alltoall, ndv2_max_2chassis_solver_time_alltoall)),
                                           columns = [' total time without alpha_min', ' solver time_min', ' total time without alpha_max', ' solver time_max'])
