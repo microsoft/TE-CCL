@@ -8,6 +8,7 @@ class TopologyParams:
     chassis: int = 1
     chunk_size: float = 1 # in GB
     alpha: tuple = (0 ,0) # (link alpha, switch alpha)
+    side_length: int = 4 # Only for Mesh and Torus topology
 
 @dataclass
 class GurobiParams:

@@ -7,7 +7,7 @@ from teccl.scheduler import *
 def make_handle_solve(cmd_parsers):
     name = 'solve'
     cmd = cmd_parsers.add_parser(name)
-    cmd.add_argument('--input_args', help='Path to the user input arguments JSON file (default: example_user_input.json)', default=SUPPRESS)
+    cmd.add_argument('-i', '--input_args', help='Path to the user input arguments JSON file (default: example_user_input.json)', default=SUPPRESS)
 
     def handler(args, command):
         if command != name:

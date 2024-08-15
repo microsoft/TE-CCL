@@ -16,6 +16,7 @@ from teccl.topologies.dgx1 import DGX1
 from teccl.topologies.dgx2 import DGX2
 from teccl.topologies.ndv2 import NDv2
 from teccl.topologies.amd import AMD
+from teccl.topologies.mesh import Mesh
 from teccl.topologies.topology import Topology
 
 
@@ -35,6 +36,8 @@ class TECCLSolver(object):
             return NDv2(topology_params)
         elif topology_params.name == "AMD":
             return AMD(topology_params)
+        elif topology_params.name == "Mesh":
+            return Mesh(topology_params)
         else:
             raise NotImplementedError(
                 f"Input topology {topology_params.name} not implemented")

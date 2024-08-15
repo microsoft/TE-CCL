@@ -17,6 +17,7 @@ class Topology(ABC):
         self.epoch_duration_fast_link = 0.0
         self.epoch_duration_slow_link = 0.0
         self.node_per_chassis = 0
+        self.side_length = topo_input.side_length # Only for Mesh and Torus topology
         self.construct_topology(topo_input)
         assert len(
             self.capacity) > 0, "Link capacities not set in the construct_topology function"

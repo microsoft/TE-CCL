@@ -1,0 +1,31 @@
+{
+    "TopologyParams": {
+        "name": "Mesh",
+        "chassis": 1,
+        "chunk_size": 100.0,
+        "side_length": 6,
+        "alpha": [
+            0.0, 0.0
+        ]
+    },
+    "GurobiParams": {
+        "time_limit": 2,
+        "output_flag": 1
+    },
+    "InstanceParams": {
+        "collective": 1,
+        "num_chunks": 1,
+        "epoch_type": 1,
+        "epoch_duration": -1,
+        "epoch_multiplier": 1,
+        "num_epochs": 50,
+        "alpha_threshold": 0.1,
+        "switch_copy": false,
+        "switch_to_gpu_link_on" : true,
+        "debug": true,
+        "debug_output_file": "",
+        "objective_type": 3,
+        "solution_method": 2,
+        "schedule_output_file": "/Users/xutingl/upenn/projects/microsoft/TE-CCL/teccl/examples/schedules/mesh_6.json"
+    }
+}
