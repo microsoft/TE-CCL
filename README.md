@@ -59,6 +59,9 @@ This will generate the schedule file `teccl/examples/schedules/ndv2_schedule.jso
 ### Detailed Examples
 For detailed examples, please refer to instructions in the [examples](teccl/examples/) directory.
 
+### Hardware and Resource Requirements
+Simple topologies (like the example above) can be easily solved using a laptop within seconds. Larger topologies (like 4-chassis ones provided in our `examples` directory) need 256GB RAM and 1+ hours. 
+
 
 ## Input Data
 A user input JSON file is consists of three parts: `TopologyParams`, `GurobiParams`, and `InstanceParams`. Detailed explainations of each argument is in [input_data.py](teccl/input_data.py).

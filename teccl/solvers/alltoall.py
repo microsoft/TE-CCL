@@ -272,11 +272,12 @@ class AlltoAllFormulation(BaseFormulation):
                         continue
                     objective.add(
                         self.flow[s][i][d][k], 10 * (pow(10, -1) / (self.num_epochs + 1)) * 2)
-        elif objective_type == ObjectiveType.EXPERIMENTAL:
-            objective = gp.LinExpr(0.0)
-            for s, d, k in product(self.nodes, self.nodes, self.epochs):
-                objective.add(
-                    self.total_demand_sat[s][d][k], -1 * multiplier * pow(0.1, (k + 1)))
+        # Experimental objective that has been removed.
+        # elif objective_type == ObjectiveType.EXPERIMENTAL:
+        #     objective = gp.LinExpr(0.0)
+        #     for s, d, k in product(self.nodes, self.nodes, self.epochs):
+        #         objective.add(
+        #             self.total_demand_sat[s][d][k], -1 * multiplier * pow(0.1, (k + 1)))
 
         else:
             assert objective_type == ObjectiveType.PAPER, "wrong objective type"
