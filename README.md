@@ -31,7 +31,7 @@ series = {ACM SIGCOMM '24}
 ## Installation
 ### Prerequisites
 - Install [Anaconda](https://www.anaconda.com/) and activate an anaconda environment.
-- Obtain and install a [Gurobi license](https://www.gurobi.com/downloads/). After getting the license, following the steps to install and activate Gurobi.
+- Obtain and install a [Gurobi license](https://www.gurobi.com/downloads/). After getting the license, follow the steps to install and activate Gurobi.
 ```
 conda config --add channels http://conda.anaconda.org/gurobi
 conda install -c conda-forge gurobi -y
